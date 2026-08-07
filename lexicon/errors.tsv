@@ -1,0 +1,160 @@
+	INDEX	form	lemma	xpos	syllables	stress	phon	err
+1005	1005	șferii	șfară	Ncfsoy	șf.e.rii	șf'erii	S f e r i j	Syllable has no vowels
+1008	1008	șfert	=	Ncms-n	șf.ert	șf'ert	S f e r t	Syllable has no vowels
+1009	1009	șfertul	șfert	Ncmsry	șf.er.tul	șf'ertul	S f e r t u l	Syllable has no vowels
+1010	1010	șfertului	șfert	Ncmsoy	șf.er.tu.lui	șf'ertului	S f e r t u l u j	Syllable has no vowels
+1011	1011	șferturi	șfert	Ncfp-n	șf.er.turi	șf'erturi	S f e r t u r i_0	Syllable has no vowels
+1012	1012	șferturile	șfert	Ncfpry	șf.er.tu.ri.le	șf'erturile	S f e r t u r i l e	Syllable has no vowels
+1013	1013	șferturilor	șfert	Ncfpoy	șf.er.tu.ri.lor	șf'erturilor	S f e r t u r i l o r	Syllable has no vowels
+2105	2105	șovârf	=	Ncms-n	șo.vâ.rf	șov'ârf	S o v 1 r f	Syllable has no vowels
+2795	2795	știuci	știucă	Ncfp-n	știuci	știuci	S t i u tS	No stress mark but multiple syllables
+2796	2796	știuci	știucă	Ncfson	știuci	știuci	S t i u tS	No stress mark but multiple syllables
+17457	17457	așchierile	așchiere	Ncfpry	aș.chi.eri.le	așchi'erile	a S k_j i e r i l e	Too many vowel clusters
+17458	17458	așchierilor	așchiere	Ncfpoy	aș.chi.eri.lor	așchi'erilor	a S k_j i e r i l o r	Too many vowel clusters
+31307	31307	anorexiile	anorexie	Ncfpry	ano.re.xi.i.le	anorex'iile	a n o r e ks i i l e	Too many vowel clusters
+31308	31308	anorexiilor	anorexie	Ncfpoy	ano.re.xi.i.lor	anorex'iilor	a n o r e ks i i l o r	Too many vowel clusters
+38787	38787	astupații	astupat	Ncmpry	astu.pa.ții	astup'ații	a s t u p a ts i j	Too many vowel clusters
+48192	48192	bineplăcut	=	Ncms-n	bine.plă.cut	bineplăc'ut	b i n e p l @ k u t	Too many vowel clusters
+48193	48193	bineplăcutul	bineplăcut	Ncmsry	bine.plă.cu.tul	bineplăc'utul	b i n e p l @ k u t u l	Too many vowel clusters
+48194	48194	bineplăcutului	bineplăcut	Ncmsoy	bine.plă.cu.tu.lui	bineplăc'utului	b i n e p l @ k u t u l u j	Too many vowel clusters
+48195	48195	bineplăcuți	bineplăcut	Ncmp-n	bine.plă.cuți	bineplăc'uți	b i n e p l @ k u ts i_0	Too many vowel clusters
+48196	48196	bineplăcuții	bineplăcut	Ncmpry	bine.plă.cu.ții	bineplăc'uții	b i n e p l @ k u ts i j	Too many vowel clusters
+48197	48197	bineplăcuților	bineplăcut	Ncmpoy	bine.plă.cu.ți.lor	bineplăc'uților	b i n e p l @ k u ts i l o r	Too many vowel clusters
+63966	63966	chineziterapeuți	chineziterapeut	Ncmp-n	chi.nezi.te.ra.peuți	chineziterape'uți	k_j i n e z i_0 t e r a p e u ts i_0	Too many vowel clusters
+64962	64962	cincizecime	=	Ncfsrn	cinci.ze.ci.me	cincizec'ime	tS i n tS i z e tS i m e	Too many vowel clusters
+64963	64963	cincizecimea	cincizecime	Ncfsry	cinci.ze.ci.mea	cincizec'imea	tS i n tS i z e tS i m e_X a	Too many vowel clusters
+64964	64964	cincizecimi	cincizecime	Ncfp-n	cinci.ze.cimi	cincizec'imi	tS i n tS i z e tS i m i_0	Too many vowel clusters
+64965	64965	cincizecimi	cincizecime	Ncfson	cinci.ze.cimi	cincizec'imi	tS i n tS i z e tS i m i_0	Too many vowel clusters
+64966	64966	cincizecimii	cincizecime	Ncfsoy	cinci.ze.ci.mii	cincizec'imii	tS i n tS i z e tS i m i j	Too many vowel clusters
+64967	64967	cincizecimile	cincizecime	Ncfpry	cinci.ze.ci.mi.le	cincizec'imile	tS i n tS i z e tS i m i l e	Too many vowel clusters
+64968	64968	cincizecimilor	cincizecime	Ncfpoy	cinci.ze.ci.mi.lor	cincizec'imilor	tS i n tS i z e tS i m i l o r	Too many vowel clusters
+68537	68537	coțcii	coțcă	Ncfsoy	coțcii	c'oțcii	k o ts tS i j	Too many vowel clusters
+78534	78534	contraexemple	contraexemplu	Ncfp-n	con.tra.e.xemple	contraex'emple	k o n t r a e gz e m p l e	Too many vowel clusters
+78535	78535	contraexemplu	contraexemplu	Ncms-n	con.tra.e.x.emplu	contraex'emplu	k o n t r a e gz . e m p l u	Syllable has no vowels
+78536	78536	contraexemplul	contraexemplu	Ncmsry	con.tra.e.x.emplul	contraex'emplul	k o n t r a e gz . e m p l u l	Syllable has no vowels
+82354	82354	coxalgiile	coxalgie	Ncfpry	coxal.gi.i.le	coxalg'iile	k o ks a l gZ i i l e	Too many vowel clusters
+82355	82355	coxalgiilor	coxalgie	Ncfpoy	coxal.gi.i.lor	coxalg'iilor	k o ks a l gZ i i l o r	Too many vowel clusters
+82356	82356	coxalgio	coxalgie	Ncfsvy	coxal.gio	coxalg'io	k o ks a l gZ j o	Too many vowel clusters
+84327	84327	crossbar	=	Ncms-n	cro.ss.bar	cr'ossbar	k r o s s b a r	Syllable has no vowels
+84328	84328	crossbarul	crossbar	Ncmsry	cro.ss.ba.rul	cr'ossbarul	k r o s s b a r u l	Syllable has no vowels
+84329	84329	crossbarului	crossbar	Ncmsoy	cro.ss.ba.ru.lui	cr'ossbarului	k r o s s b a r u l u j	Syllable has no vowels
+89177	89177	daici	daică	Ncfp-n	daici	daici	d a i tS	No stress mark but multiple syllables
+89178	89178	daici	daică	Ncfson	daici	daici	d a i tS	No stress mark but multiple syllables
+93878	93878	dejurstvele	dejurstvă	Ncfpry	de.jur.st.ve.le	dej'urstvele	d e Z u r s t v e l e	Syllable has no vowels
+93879	93879	dejurstvelor	dejurstvă	Ncfpoy	de.jur.st.ve.lor	dej'urstvelor	d e Z u r s t v e l o r	Syllable has no vowels
+93880	93880	dejurstvă	=	Ncfsrn	de.jur.st.vă	dej'urstvă	d e Z u r s t v @	Syllable has no vowels
+101628	101628	dezafectarea	dezafectare	Ncfsry	deza.fec.ta.rea	dezafect'area	d e z a f e k t a r e_X a	Too many vowel clusters
+101673	101673	dezafectării	dezafectare	Ncfsoy	deza.fec.tă.rii	dezafect'ării	d e z a f e k t @ r i j	Too many vowel clusters
+104474	104474	diasporă	=	Ncfsrn	di.aspo.ră	di'asporă	d i a s p o r @	Too many vowel clusters
+106038	106038	discipulul	discipul	Ncmsry	dis.cipu.lul	disc'ipulul	d i s tS i p u l u l	Too many vowel clusters
+106039	106039	discipulului	discipul	Ncmsoy	dis.cipu.lu.lui	disc'ipulului	d i s tS i p u l u l u j	Too many vowel clusters
+108350	108350	dizabilitatea	dizabilitate	Ncfsry	diza.bi.li.ta.tea	dizabilit'atea	d i z a b i l i t a t e_X a	Too many vowel clusters
+108351	108351	dizabilități	dizabilitate	Ncfp-n	diza.bi.li.tăți	dizabilit'ăți	d i z a b i l i t @ ts i_0	Too many vowel clusters
+108352	108352	dizabilități	dizabilitate	Ncfson	diza.bi.li.tăți	dizabilit'ăți	d i z a b i l i t @ ts i_0	Too many vowel clusters
+108353	108353	dizabilității	dizabilitate	Ncfsoy	diza.bi.li.tă.ții	dizabilit'ății	d i z a b i l i t @ ts i j	Too many vowel clusters
+108354	108354	dizabilitățile	dizabilitate	Ncfpry	diza.bi.li.tă.ți.le	dizabilit'ățile	d i z a b i l i t @ ts i l e	Too many vowel clusters
+108355	108355	dizabilităților	dizabilitate	Ncfpoy	diza.bi.li.tă.ți.lor	dizabilit'ăților	d i z a b i l i t @ ts i l o r	Too many vowel clusters
+108499	108499	djurstve	djurstvă	Ncfp-n	dj.urst.ve	dj'urstve	d Z u r s t v e	Syllable has no vowels
+108500	108500	djurstve	djurstvă	Ncfson	dj.urst.ve	dj'urstve	d Z u r s t v e	Syllable has no vowels
+108501	108501	djurstvei	djurstvă	Ncfsoy	dj.urs.tvei	dj'urstvei	d Z u r s t v e j	Syllable has no vowels
+108502	108502	djurstvele	djurstvă	Ncfpry	dj.ur.st.ve.le	dj'urstvele	d Z u r s t v e l e	Syllable has no vowels
+108503	108503	djurstvelor	djurstvă	Ncfpoy	dj.ur.st.ve.lor	dj'urstvelor	d Z u r s t v e l o r	Syllable has no vowels
+108504	108504	djurstvă	=	Ncfsrn	dj.ur.st.vă	dj'urstvă	d Z u r s t v @	Syllable has no vowels
+112169	112169	dâldore	dâldoră	Ncfp-n	dâl.dore	d'âldore	d 1 l d o r e	Too many vowel clusters
+112170	112170	dâldore	dâldoră	Ncfson	dâl.dore	d'âldore	d 1 l d o r e	Too many vowel clusters
+112672	112672	echinoxului	echinox	Ncmsoy	e.chino.xu.lui	echin'oxului	e k_j i n o ks u l u j	Too many vowel clusters
+117597	117597	est	=	Ncms-n	est	est	je s t	No stress mark but multiple syllables
+117598	117598	establishmente	establishment	Ncfp-n	es.ta.bli.sh.men.te	establishm'ente	e s t a b l i s h m e n t e	Syllable has no vowels
+119205	119205	exacerbareo	exacerbare	Ncfsvy	exa.cer.ba.reo	exacerbar'eo	e ks a tS e r b a r e_X o	Too many vowel clusters
+119379	119379	examenu	=	Ncmsry	e.xa.menu	examen'u	e gz a m e n u	Too many vowel clusters
+120013	120013	excursio	excursie	Ncfsvy	ex.cur.s.io	excurs'io	e ks k u r s j o	Syllable has no vowels
+120067	120067	execuțio	execuție	Ncfsvy	e.xe.cu.ț.io	execuț'io	e gz e k u ts j o	Syllable has no vowels
+132604	132604	fugi	fugă	Ncfp-n	fugi	fugi	f u gZ i	No stress mark but multiple syllables
+132605	132605	fugi	fugă	Ncfson	fugi	fugi	f u gZ i	No stress mark but multiple syllables
+135075	135075	gauss	=	Ncms-n	gauss	gauss	g a u s	No stress mark but multiple syllables
+136589	136589	ghioș	=	Ncms-n	ghi.o.ș	ghi'oș	g_j i o S	Syllable has no vowels
+136682	136682	ghirlănzii	ghirlandă	Ncfsoy	ghir.lănzii	ghirl'ănzii	g_j i r l @ n z i j	Too many vowel clusters
+136687	136687	ghiuji	ghiuj	Ncmp-n	ghiuji	ghiuji	g_j u Z i	No stress mark but multiple syllables
+136822	136822	gilbox	=	Ncfp-n	gilbox	g'ilbox	gZ i l b o ks	Too many vowel clusters
+136823	136823	gilbox	=	Ncm--n	gilbox	g'ilbox	gZ i l b o ks	Too many vowel clusters
+136824	136824	gilbox	=	Ncmsvn	gilbox	g'ilbox	gZ i l b o ks	Too many vowel clusters
+137082	137082	giuvaere	ghint	Ncfp-n	giu.va.ere	giuva'ere	gZ u v a e r e	Too many vowel clusters
+137087	137087	giuvaerului	ghint	Ncmsoy	giu.va.eru.lui	giuva'erului	gZ u v a e r u l u j	Too many vowel clusters
+137600	137600	gnu	=	Ncfp-n	gnu	gnu	g n w	No stress mark but multiple syllables
+137601	137601	gnu	=	Ncm--n	gnu	gnu	g n w	No stress mark but multiple syllables
+137602	137602	gnu	=	Ncmsvn	gnu	gnu	g n w	No stress mark but multiple syllables
+139798	139798	guelf	=	Ncms-n	guelf	guelf	g u e l f	No stress mark but multiple syllables
+140110	140110	guturaielor	guturai	Ncfpoy	gu.tu.ra.ielor	gutur'aielor	g u t u r a j e l o r	Too many vowel clusters
+142188	142188	hexametilentetraminele	hexametilentetramină	Ncfpry	he.xa.me.ti.len.tetra.mi.ne.le	hexametilentetram'inele	h e gz a m e t i l e n t e t r a m i n e l e	Too many vowel clusters
+142189	142189	hexametilentetraminelor	hexametilentetramină	Ncfpoy	he.xa.me.ti.len.tetra.mi.ne.lor	hexametilentetram'inelor	h e gz a m e t i l e n t e t r a m i n e l o r	Too many vowel clusters
+143939	143939	hotelele	hotel	Ncfpry	ho.tele.le	hot'elele	h o t e l e l e	Too many vowel clusters
+143940	143940	hotelelor	hotel	Ncfpoy	ho.tele.lor	hot'elelor	h o t e l e l o r	Too many vowel clusters
+146196	146196	ignoranțele	ignoranță	Ncfpry	igno.ran.țe.le	ignor'anțele	i g n o r a n ts e l e	Too many vowel clusters
+146197	146197	ignoranțelor	ignoranță	Ncfpoy	igno.ran.țe.lor	ignor'anțelor	i g n o r a n ts e l o r	Too many vowel clusters
+146201	146201	ignoranțo	ignoranță	Ncfsvy	igno.ran.țo	ignor'anțo	i g n o r a n ts o	Too many vowel clusters
+148565	148565	inabilității	inabilitate	Ncfsoy	ina.bi.li.tă.ții	inabilit'ății	i n a b i l i t @ ts i j	Too many vowel clusters
+148689	148689	inadmisibilitățile	inadmisibilitate	Ncfpry	inad.mi.si.bi.li.tă.ți.le	inadmisibilit'ățile	i n a d m i s i b i l i t @ ts i l e	Too many vowel clusters
+148690	148690	inadmisibilităților	inadmisibilitate	Ncfpoy	inad.mi.si.bi.li.tă.ți.lor	inadmisibilit'ăților	i n a d m i s i b i l i t @ ts i l o r	Too many vowel clusters
+150748	150748	ineditul	inedit	Ncmsry	ine.di.tul	ined'itul	i n e d i t u l	Too many vowel clusters
+150750	150750	ineditului	inedit	Ncmsoy	ine.di.tu.lui	ined'itului	i n e d i t u l u j	Too many vowel clusters
+150996	150996	inexistențele	inexistență	Ncfpry	ine.xis.ten.țe.le	inexist'ențele	i n e gz i s t e n ts e l e	Too many vowel clusters
+150997	150997	inexistențelor	inexistență	Ncfpoy	ine.xis.ten.țe.lor	inexist'ențelor	i n e gz i s t e n ts e l o r	Too many vowel clusters
+159255	159255	israeliți	israelit	Ncmp-n	isra.e.liți	israel'iți	i s r a e l i ts i_0	Too many vowel clusters
+159256	159256	israeliții	israelit	Ncmpry	isra.e.li.ții	israel'iții	i s r a e l i ts i j	Too many vowel clusters
+159257	159257	israeliților	israelit	Ncmpoy	isra.e.li.ți.lor	israel'iților	i s r a e l i ts i l o r	Too many vowel clusters
+162419	162419	lăcșorul	lăcșor	Ncmsry	lăcșo.rul	lăcș'orul	l @ k S o r u l	Too many vowel clusters
+163789	163789	lateralei	laterală	Ncfsoy	la.tera.lei	later'alei	l a t e r a l e j	Too many vowel clusters
+165285	165285	leule	leu	Ncmsvy	le.ule	l'eule	l e u l e	Too many vowel clusters
+170353	170353	machul	mach	Ncmsry	machul	m'achul	m a tS h w l	Too many vowel clusters
+206441	206441	openului	open	Ncmsoy	o.penu.lui	'openului	o p e n u l u j	Too many vowel clusters
+208054	208054	origami	origam	Ncmp-n	ori.gami	orig'ami	o r i g a m i_0	Too many vowel clusters
+208880	208880	otel	=	Ncms-n	otel	ot'el	o t e l	Too many vowel clusters
+208881	208881	otele	otel	Ncfp-n	ote.le	ot'ele	o t e l e	Too many vowel clusters
+208882	208882	otelele	otel	Ncfpry	ote.le.le	ot'elele	o t e l e l e	Too many vowel clusters
+208883	208883	otelelor	otel	Ncfpoy	ote.le.lor	ot'elelor	o t e l e l o r	Too many vowel clusters
+208884	208884	otelul	otel	Ncmsry	ote.lul	ot'elul	o t e l u l	Too many vowel clusters
+208885	208885	otelului	otel	Ncmsoy	ote.lu.lui	ot'elului	o t e l u l u j	Too many vowel clusters
+208886	208886	oteluri	otel	Ncfp-n	ote.luri	ot'eluri	o t e l u r i_0	Too many vowel clusters
+208887	208887	otelurile	otel	Ncfpry	ote.lu.ri.le	ot'elurile	o t e l u r i l e	Too many vowel clusters
+208888	208888	otelurilor	otel	Ncfpoy	ote.lu.ri.lor	ot'elurilor	o t e l u r i l o r	Too many vowel clusters
+209247	209247	oxidril	=	Ncms-n	o.xi.dri.l	oxidr'il	o ks i d r i l	Syllable has no vowels
+212481	212481	parabucla	parabuclă	Ncfsry	pa.rabu.cla	parab'ucla	p a r a b u k l a	Too many vowel clusters
+212482	212482	parabucle	parabuclă	Ncfp-n	pa.rabu.cle	parab'ucle	p a r a b u k l e	Too many vowel clusters
+212483	212483	parabucle	parabuclă	Ncfson	pa.rabu.cle	parab'ucle	p a r a b u k l e	Too many vowel clusters
+212484	212484	parabuclei	parabuclă	Ncfsoy	pa.rabu.clei	parab'uclei	p a r a b u k l e j	Too many vowel clusters
+212485	212485	parabuclele	parabuclă	Ncfpry	pa.rabu.cle.le	parab'uclele	p a r a b u k l e l e	Too many vowel clusters
+212486	212486	parabuclelor	parabuclă	Ncfpoy	pa.rabu.cle.lor	parab'uclelor	p a r a b u k l e l o r	Too many vowel clusters
+218944	218944	pielcică	=	Ncfsrn	piel.c.i.că	pielc'ică	p j e l tS i k @	Syllable has no vowels
+223873	223873	politrucii	politruc	Ncmpry	po.li.t.ru.cii	politr'ucii	p o l i t r u tS i j	Syllable has no vowels
+223874	223874	politrucilor	politruc	Ncmpoy	po.li.t.ru.ci.lor	politr'ucilor	p o l i t r u tS i l o r	Syllable has no vowels
+226401	226401	povidla	povidlă	Ncfsry	po.vidla	pov'idla	p o v i d l a	Too many vowel clusters
+226407	226407	povidlo	povidlă	Ncfsvy	po.vidlo	pov'idlo	p o v i d l o	Too many vowel clusters
+237209	237209	puburile	pub	Ncfpry	pubu.ri.le	p'uburile	p u b u r i l e	Too many vowel clusters
+237210	237210	puburilor	pub	Ncfpoy	pubu.ri.lor	p'uburilor	p u b u r i l o r	Too many vowel clusters
+237272	237272	pudl	=	Ncms-n	pu.dl	p'udl	p u d l	Syllable has no vowels
+243152	243152	raznocinții	raznocinți	Ncmpry	raz.no.ci.n.ții	raznoc'inții	r a z n o tS i n ts i j	Syllable has no vowels
+243153	243153	raznocinților	raznocinți	Ncmpoy	raz.no.ci.n.ți.lor	raznoc'inților	r a z n o tS i n ts i l o r	Syllable has no vowels
+258023	258023	rouo	rouă	Ncfsvy	rouo	rouo	r o w o	No stress mark but multiple syllables
+262900	262900	schi	=	Ncms-n	schi	schi	s k_j	No stress mark but multiple syllables
+263519	263519	scoici	scoică	Ncfp-n	scoici	scoici	s k o i tS	No stress mark but multiple syllables
+263520	263520	scoici	scoică	Ncfson	scoici	scoici	s k o i tS	No stress mark but multiple syllables
+267552	267552	service	=	Ncms-n	ser.vice	s'ervice	s e r v i s	Too many vowel clusters
+270413	270413	single	=	Ncf--n	single	single	s i n g l	Too many vowel clusters
+270414	270414	single	=	Ncfpoy	single	single	s i n g l	Too many vowel clusters
+270415	270415	single	=	Ncfpry	single	single	s i n g l	Too many vowel clusters
+270416	270416	single	=	Ncmsry	single	single	s i n g l	Too many vowel clusters
+272049	272049	sms	=	Ncms-n	sms	sms	s m s	No stress mark but multiple syllablesSyllable has no vowels
+275198	275198	spiru	=	Ncms-n	spi.ru	'spiru	s p i r u	Stress mark not before vowel
+279123	279123	street	=	Ncms-n	street	street	s t r e e t	No stress mark but multiple syllables
+288413	288413	tavanurile	tavan	Ncfpry	ta.vanu.ri.le	tav'anurile	t a v a n u r i l e	Too many vowel clusters
+288414	288414	tavanurilor	tavan	Ncfpoy	ta.vanu.ri.lor	tav'anurilor	t a v a n u r i l o r	Too many vowel clusters
+298040	298040	turbanurile	turban	Ncfpry	tur.banu.ri.le	turb'anurile	t u r b a n u r i l e	Too many vowel clusters
+298041	298041	turbanurilor	turban	Ncfpoy	tur.banu.ri.lor	turb'anurilor	t u r b a n u r i l o r	Too many vowel clusters
+304688	304688	vecino	vecină	Ncfsvy	ve.cino	vec'ino	v e tS i n o	Too many vowel clusters
+308300	308300	vodcii	vodcă	Ncfsoy	vodcii	v'odcii	v o d tS i j	Too many vowel clusters
+309250	309250	vrâsta	vrâstă	Ncfsry	vrâsta	vr'âsta	v r 1 s t a	Too many vowel clusters
+309251	309251	vrâste	vrâstă	Ncfp-n	vrâste	vr'âste	v r 1 s t e	Too many vowel clusters
+309252	309252	vrâste	vrâstă	Ncfson	vrâste	vr'âste	v r 1 s t e	Too many vowel clusters
+310135	310135	xenofobo	xenofobă	Ncfsvy	xe.no.f.o.bo	xenof'obo	ks e n o f o b o	Syllable has no vowels
+310821	310821	zaici	zaică	Ncfp-n	zaici	zaici	z a i tS	No stress mark but multiple syllables
+310822	310822	zaici	zaică	Ncfson	zaici	zaici	z a i tS	No stress mark but multiple syllables
