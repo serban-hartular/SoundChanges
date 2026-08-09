@@ -1,5 +1,6 @@
 import dataclasses
 import re
+import pandas as pd
 
 from word_utils import VOWELS, SEMIVOWELS, I_FINAL, CONSONANTS
 
@@ -71,8 +72,7 @@ def err_msg(e : FormEntry) -> str:
     return ''.join(msgs)
 
 
-def stress2syllables(e : FormEntry, stress_sym : str = '', syll_sym : str = SYLLABLE_MARK) -> str:
-    stress_sym, syll_sym = stress_sym or STRESS_MARK, syll_sym or SYLLABLE_MARK
+def stress2syllables(e : FormEntry, stress_sym : str = STRESS_MARK, syll_sym : str = SYLLABLE_MARK) -> str:
     i_stress, i_syll, out_str = 0, 0, ''
     while i_stress < len(e.stress) and i_syll < len(e.syllables):
         c_stress, c_syll = e.stress[i_stress], e.syllables[i_syll]
@@ -89,11 +89,71 @@ def stress2syllables(e : FormEntry, stress_sym : str = '', syll_sym : str = SYLL
             raise Exception(f'Error merging {e.stress}, {e.syllables} at chars {c_stress}, {c_syll}')
     return out_str
 
+def group_vowel_clusters(in_syllables : str,
+                         stress_sym : str = STRESS_MARK, syll_sym : str = SYLLABLE_MARK)\
+                                                                     -> list[str]:
+    syll_list = in_syllables.split(syll_sym)
+    output_list = []
+    to_cluster = ORTHO_VOWELS | {stress_sym}
+    for syllable in syll_list:
+        cluster_list = []
+        for c in syllable:
+            if c in to_cluster and cluster_list and cluster_list[-1][-1] in to_cluster:
+                cluster_list[-1] += c
+            else:
+                cluster_list.append(c)
+        output_list.extend(cluster_list)
+    return output_list
+
+def stress_mark_cleanup(in_clusters : list[str],
+                        stress_sym : str = STRESS_MARK):
+    """If there is no stress sybmol, add it to the first cluster.
+    Move stress symbol to beginning of vowel cluster if needed.
+    Operates in-place."""
+    for i, cluster in enumerate(in_clusters):
+        if stress_sym in cluster:
+            in_clusters[i] = stress_sym + cluster.replace(stress_sym, '')
+            return
+    # no stress symbol found, add one
+    for i, cluster in enumerate(in_clusters):
+        if ORTHO_VOWELS.intersection(cluster): # this cluster has vowels
+            in_clusters[i] = stress_sym + cluster
+            return
+    raise Exception('No vowel cluster in ' + str(in_clusters))
+
+
+def get_entry_by_index(df : pd.DataFrame, index : int, INDEX_COL : str = 'INDEX') -> FormEntry:
+    df = df[df[INDEX_COL]==index]
+    if len(df) != 1:
+        raise Exception(f'Search for index {index} yielded {len(df)} rows!')
+    return FormEntry.from_dict(df.to_dict(orient='records')[0])
+
+def index_to_letterclusters(df : pd.DataFrame, index : int) -> list[str]:
+    e = get_entry_by_index(df, index)
+    sylls_w_stress = stress2syllables(e)
+    cluster_list = group_vowel_clusters(sylls_w_stress)
+    stress_mark_cleanup(cluster_list)
+    return cluster_list
+
+def generate_root(cluster_list : list[str]) -> tuple[list[str], str]:
+    """Remove final vowel. Not in place"""
+    cluster_list = [s for s in cluster_list]
+    desinence = ''
+    if cluster_list and ORTHO_VOWELS.intersection(cluster_list[-1]): # last syllable has vowels
+        last = cluster_list[-1][:-1] # remove last letter
+        desinence = cluster_list[-1][-1]
+        if not last: # nothing left
+            cluster_list.pop()
+        elif last == STRESS_MARK: # if this was solitary stressed vowel, don't remove it
+            desinence = ''
+        else: # replace final cluster with the one that has no vowel 
+            cluster_list[-1] = last
+    return cluster_list, desinence
+
 
 if __name__ == "__main__":
-    import pandas as pd
 
-    df = pd.read_csv('./lexicon/lexicon_reterom.v1.mod.tsv', sep='\t')
+    df = pd.read_csv('./lexicon/nouns.tsv', sep='\t')
     #df['include'] = df.apply(lambda row: filter_fn(row['xpos']), axis=1)
     #df = df[df['include']==1]
     
