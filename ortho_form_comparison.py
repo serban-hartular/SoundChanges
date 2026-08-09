@@ -37,6 +37,13 @@ def compare_forms(df : pd.DataFrame, index_base : int, index_derived : int) -> F
     )
 
 
+def get_new_ending(chg_seq : list[tuple[str, str]]) -> list[str]:
+    chg_seq = chg_seq[:-1] # cut off $
+    i = len(chg_seq)-1
+    while i >= 0 and chg_seq[i][0] == '':
+         i -= 1
+    return [t[1] for t in chg_seq[i+1:]]
+
 if __name__ == "__main__":
     import pickle
 
@@ -44,5 +51,6 @@ if __name__ == "__main__":
     df = pd.read_csv('./lexicon/nouns.tsv', sep='\t')
     with open('./lexicon/plurals_indices.p', 'rb') as handle:
         plural_dict : dict[tuple, list] = pickle.load(handle)
-
+    with open('./lexicon/change_records.1.p', 'rb') as handle:
+        change_list : list[dict] = pickle.load(handle)
     

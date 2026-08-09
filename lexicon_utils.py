@@ -58,18 +58,43 @@ class FormEntrySanityChecks:
             if len(re.findall(f'[{''.join(ORTHO_VOWELS)}]+', syll)) > 1:
                 return 'Too many vowel clusters'
         return ''
+    @staticmethod
+    def syll_count_check(e : FormEntry) -> str:
+        if (FormEntrySanityChecks.count_syllable_centers(e) != 
+                                e.syllables.count(SYLLABLE_MARK) + 1):
+            return 'Syllable count mismatch'
+        return ''
+    CheckList = [stress_check, syll_check, syll_count_check]
+
+    @staticmethod
+    def check_entry(e : FormEntry) -> list[str]:
+        results = [fn(e) for fn in FormEntrySanityChecks.CheckList]
+        return [s for s in results if s]
 
     
 #RETEROM_COLUMNS = ['form', 'lemma', 'xpos', 'syllables', 'stress', 'phon']
 RETEROM_COLUMNS = list(FormEntry.__annotations__)
 
-
-
 def err_msg(e : FormEntry) -> str:
-    fn_list = [FormEntrySanityChecks.stress_check, FormEntrySanityChecks.syll_check]
-    msgs = [fn(e) for fn in fn_list]
-    msgs = [s for s in msgs if s]
-    return ''.join(msgs)
+    return '|'.join(FormEntrySanityChecks.check_entry(e))
+
+def changes_to_df(target_df : pd.DataFrame, src_df : pd.DataFrame, target_columns : list[str],
+                  key_col : str = 'INDEX'):
+    """Take each row in src_df. Identify corresponding row in target_df based on value of the 
+    key column, which should appear in both. Overwrite data in the target_columns in the target_df
+    with the data in the target_columns in the src_df.
+    """
+    row_keys = src_df[key_col].to_list() # these are the keys in order as found in src_df
+    row_key_set = set(row_keys)
+    target_key_index_dict = {key:target_index for key, target_index in zip(
+        target_df[target_df[key_col].isin(row_key_set)][key_col], target_df.index[target_df[key_col].isin(row_key_set)]
+    )} # dict of key paired with row index in target_df
+    if len(target_key_index_dict) != len(row_keys):
+        raise Exception('Not all keys in src_df are also in target_df!')
+    target_indices = [target_key_index_dict[key] for key in row_keys] # target indices are in same order
+    # finally, write the data
+    target_df.loc[target_indices, target_columns] = src_df[target_columns].values
+
 
 
 def stress2syllables(e : FormEntry, stress_sym : str = STRESS_MARK, syll_sym : str = SYLLABLE_MARK) -> str:
@@ -154,8 +179,13 @@ def generate_root(cluster_list : list[str]) -> tuple[list[str], str]:
 if __name__ == "__main__":
 
     df = pd.read_csv('./lexicon/nouns.tsv', sep='\t')
-    #df['include'] = df.apply(lambda row: filter_fn(row['xpos']), axis=1)
-    #df = df[df['include']==1]
+    df_fixes = pd.read_csv('./lexicon/Corectat lexicon - Sheet2.tsv', sep='\t')
+
+    orig_errors = {}
+    for i, row in enumerate(df.iloc):
+        msg = err_msg(FormEntry.from_dict(row))
+        if msg:
+            orig_errors[row['INDEX']] = msg
     
 
 
