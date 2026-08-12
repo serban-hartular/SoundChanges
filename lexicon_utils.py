@@ -155,6 +155,9 @@ def get_entry_by_index(df : pd.DataFrame, index : int, INDEX_COL : str = 'INDEX'
 
 def index_to_letterclusters(df : pd.DataFrame, index : int) -> list[str]:
     e = get_entry_by_index(df, index)
+    return entry_to_letterclusters(e)
+
+def entry_to_letterclusters(e : FormEntry) -> list[str]:
     sylls_w_stress = stress2syllables(e)
     cluster_list = group_vowel_clusters(sylls_w_stress)
     stress_mark_cleanup(cluster_list)
@@ -169,6 +172,9 @@ def generate_root(cluster_list : list[str]) -> tuple[list[str], str]:
         desinence = cluster_list[-1][-1]
         if not last: # nothing left
             cluster_list.pop()
+        elif last + desinence == 'ie': # 'ie' ending -- delete all
+            desinence = 'ie'
+            cluster_list.pop() # cut ie off
         elif last == STRESS_MARK: # if this was solitary stressed vowel, don't remove it
             desinence = ''
         else: # replace final cluster with the one that has no vowel 
