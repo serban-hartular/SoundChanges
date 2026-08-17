@@ -1,0 +1,44 @@
+Gen	DesSing	DesPlur	Exemple	Tip	Cut	Add
+Masc	0	i	elev/elevi			i
+Masc	iu	i	uliu/ulii		iu	ii
+Masc	u	i	flăcău/flăcăi		u	i
+Masc	o	i	picolo/picoli	neologisme	o	i
+Masc	0	eni	om/oameni	neregulat		eni
+Masc	ă	îni	tată/tătâni	vechi	ă	îni
+Masc	e	îni	frate/frătâni	vechi	e	îni
+Masc	e	eți	oaspe/oaspeți	vechi	e	eți
+Masc	ă	i	popă/popi	special	ă	i
+Masc	e	i	tutore/tutori		e	i
+Fem	a	le	macara/macarale			le
+Fem	ea	le	podea/podele			le
+Fem	ia	le	nuia/nuiele			le
+Fem	i	le	zi/zile			le
+Fem	ă	e	mamă/mame		ă	e
+Fem	a	e	leva/leve		a	e
+Fem	ă	uri	treabă/treburi		ă	uri
+Fem	e	uri	vreme/vremuri		e	uri
+Fem	le	i	vale/văi, cale/căi		le	i
+Fem	ie	i	baie/băi		ie	i
+Fem	e	i	idee/idei		e	i
+Fem	ă	ori	soră/surori	neregulat	ă	ori
+Fem	a	i	șa/șei, manta/mantăi		a	i
+Fem	ă	i	gaură/găuri		ă	i
+Fem	e	i	vulpe/vulpi		e	i
+Neutr	0	uri	drum/drumuri			uri
+Neutr	0	e	animal/animale			e
+Neutr	0	ete	cap/capete			ete
+Neutr	i	uri	beci/beciuri			uri
+Neutr	i	e	bici/bice		i	e
+Neutr	i	e	condei/condeie			e
+Neutr	e	uri	degrade/degradeuri		e	uri
+Neutr	u	uri	atu/atuuri			uri
+Neutr	o	uri	zero/zerouri			uri
+Neutr	u	uri	lucru/lucruri, tablou/tablouri		u	uri
+Neutr	u	e	teatru/teatre		u	e
+Neutr	u	i	domeniu/domenii, consiliu/consilii		u	i
+Neutr	u	ie	brâu/brâie		u	ie
+Neutr	iu	ie	chipiu/chipie		u	e
+Neutr	u	ă	ou/ouă	neregulat		ă
+Neutr	u	ale	atu/atale	vechi	u	ale
+Neutr	o	ale	caro/carale	vechi	o	ale
+Fem	ă	le	rândunică/rândunele		ică	ele
