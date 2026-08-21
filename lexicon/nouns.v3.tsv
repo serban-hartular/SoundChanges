@@ -14712,7 +14712,7 @@
 14710	52413	brâurilor	brâu	Ncfpoy	brâ.u.ri.lor	br'âurilor	b r 1 u r i l o r
 14711	52414	buștean	=	Ncms-n	buș.tean	buște'an	b u S t e_X a n
 14712	52415	bușteanul	buștean	Ncmsry	buș.tea.nul	buște'anul	b u S t e_X a n u l
-14713	52416	bușteanule	buștean	Ncmsvy	buș.tea.nu.le	bușt'eanule	b u S t e_X a n u l e
+14713	52416	bușteanule	buștean	Ncmsvy	buș.tea.nu.le	buște'anule	b u S t e_X a n u l e
 14714	52417	bușteanului	buștean	Ncmsoy	buș.tea.nu.lui	buște'anului	b u S t e_X a n u l u j
 14715	52418	bușteni	buștean	Ncmp-n	buș.teni	bușt'eni	b u S t e n i_0
 14716	52419	buștenii	buștean	Ncmpry	buș.te.nii	bușt'enii	b u S t e n i j
@@ -24043,10 +24043,10 @@
 24041	74517	condorule	condor	Ncmsvy	con.do.ru.le	cond'orule	k o n d o r u l e
 24042	74518	condorului	condor	Ncmsoy	con.do.ru.lui	cond'orului	k o n d o r u l u j
 24043	74525	conducătoare	=	Ncf--n	con.du.că.toa.re	conducăto'are	k o n d u k @ t o_X a r e
-24044	74527	conducătoarea	conducătoare	Ncfsry	con.du.că.toa.rea	conducăt'oarea	k o n d u k @ t o_X a r e_X a
-24045	74529	conducătoarei	conducătoare	Ncfsoy	con.du.că.toa.rei	conducăt'oarei	k o n d u k @ t o_X a r e j
-24046	74531	conducătoarele	conducătoare	Ncfpry	con.du.că.toa.re.le	conducăt'oarele	k o n d u k @ t o_X a r e l e
-24047	74533	conducătoarelor	conducătoare	Ncfpoy	con.du.că.toa.re.lor	conducăt'oarelor	k o n d u k @ t o_X a r e l o r
+24044	74527	conducătoarea	conducătoare	Ncfsry	con.du.că.toa.rea	conducăto'area	k o n d u k @ t o_X a r e_X a
+24045	74529	conducătoarei	conducătoare	Ncfsoy	con.du.că.toa.rei	conducăto'arei	k o n d u k @ t o_X a r e j
+24046	74531	conducătoarele	conducătoare	Ncfpry	con.du.că.toa.re.le	conducăto'arele	k o n d u k @ t o_X a r e l e
+24047	74533	conducătoarelor	conducătoare	Ncfpoy	con.du.că.toa.re.lor	conducăto'arelor	k o n d u k @ t o_X a r e l o r
 24048	74535	conducătoareo	conducătoare	Ncfsvy	con.du.că.toa.reo	conducăto'areo	k o n d u k @ t o_X a r e_X o
 24049	74538	conducător	=	Ncms-n	con.du.că.tor	conducăt'or	k o n d u k @ t o r
 24050	74540	conducători	conducător	Ncmp-n	con.du.că.tori	conducăt'ori	k o n d u k @ t o r i_0
@@ -43988,13 +43988,13 @@
 43986	137064	giumbușlucurile	giumbușluc	Ncfpry	gium.buș.lu.cu.ri.le	giumbușl'ucurile	gZ u m b u S l u k u r i l e
 43987	137065	giumbușlucurilor	giumbușluc	Ncfpoy	gium.buș.lu.cu.ri.lor	giumbușl'ucurilor	gZ u m b u S l u k u r i l o r
 43988	137066	giurgiu	=	Ncms-n	giur.giu	gi'urgiu	gZ u r gZ u
-43989	137081	giuvaer	ghint	Ncms-n	giu.va.er	giuva'er	gZ u v a e r
-43990	137082	giuvaere	ghint	Ncfp-n	giu.va.e.re	giuva'ere	gZ u v a e r e
-43991	137083	giuvaerele	ghint	Ncfpry	giu.va.e.re.le	giuva'erele	gZ u v a e r e l e
-43992	137084	giuvaerelor	ghint	Ncfpoy	giu.va.e.re.lor	giuva'erelor	gZ u v a e r e l o r
-43993	137085	giuvaerul	ghint	Ncmsry	giu.va.e.rul	giuva'erul	gZ u v a e r u l
-43994	137086	giuvaerule	ghint	Ncmsvy	giu.va.e.ru.le	giuv'aerule	gZ u v a e r u l e
-43995	137087	giuvaerului	ghint	Ncmsoy	giu.va.e.ru.lui	giuva'erului	gZ u v a e r u l u j
+43989	137081	giuvaer	=	Ncms-n	giu.va.er	giuva'er	gZ u v a e r
+43990	137082	giuvaere	giuvaer	Ncfp-n	giu.va.e.re	giuva'ere	gZ u v a e r e
+43991	137083	giuvaerele	giuvaer	Ncfpry	giu.va.e.re.le	giuva'erele	gZ u v a e r e l e
+43992	137084	giuvaerelor	giuvaer	Ncfpoy	giu.va.e.re.lor	giuva'erelor	gZ u v a e r e l o r
+43993	137085	giuvaerul	giuvaer	Ncmsry	giu.va.e.rul	giuva'erul	gZ u v a e r u l
+43994	137086	giuvaerule	giuvaer	Ncmsvy	giu.va.e.ru.le	giuv'aerule	gZ u v a e r u l e
+43995	137087	giuvaerului	giuvaer	Ncmsoy	giu.va.e.ru.lui	giuva'erului	gZ u v a e r u l u j
 43996	137088	giuvaier	=	Ncms-n	giu.va.ier	giuvai'er	gZ u v a j e r
 43997	137089	giuvaiere	giuvaier	Ncfp-n	giu.va.ie.re	giuvai'ere	gZ u v a j e r e
 43998	137090	giuvaierele	giuvaier	Ncfpry	giu.va.ie.re.le	giuvai'erele	gZ u v a j e r e l e
@@ -45300,9 +45300,9 @@
 45298	139890	gumilasticului	gumilastic	Ncmsoy	gu.mi.las.ti.cu.lui	gumil'asticului	g u m i l a s t i k u l u j
 45299	139891	gumo	gumă	Ncfsvy	gu.mo	g'umo	g u m o
 45300	139893	gumă	=	Ncfsrn	gu.mă	g'umă	g u m @
-45301	139896	gunoaie	gunoi	Ncfp-n	gu.no.a.ie	guno'aie	g u n o a j e
-45302	139897	gunoaiele	gunoi	Ncfpry	gu.no.a.ie.le	guno'aiele	g u n o a j e l e
-45303	139898	gunoaielor	gunoi	Ncfpoy	gu.no.a.ie.lor	guno'aielor	g u n o a j e l o r
+45301	139896	gunoaie	gunoi	Ncfp-n	gu.noa.ie	guno'aie	g u n o a j e
+45302	139897	gunoaiele	gunoi	Ncfpry	gu.noa.ie.le	guno'aiele	g u n o_X a j e l e
+45303	139898	gunoaielor	gunoi	Ncfpoy	gu.noa.ie.lor	guno'aielor	g u n o_X a j e l o r
 45304	139899	gunoi	=	Ncms-n	gu.noi	guno'i	g u n o j
 45305	139933	gupa	gupă	Ncfsry	gu.pa	g'upa	g u p a
 45306	139934	gupe	gupă	Ncfp-n	gu.pe	g'upe	g u p e
@@ -60844,9 +60844,9 @@
 60842	182898	muștru	=	Ncms-n	muș.tru	m'uștru	m u S t r u
 60843	182899	muștrul	muștru	Ncmsry	muș.trul	m'uștrul	m u S t r u l
 60844	182902	muștrului	muștru	Ncmsoy	muș.tru.lu.i	muștrulu'i	m u S t r u l u i
-60845	182934	mușuroaie	mușuroi	Ncfp-n	mu.șu.ro.a.ie	mușuro'aie	m u S u r o a j e
-60846	182935	mușuroaiele	mușuroi	Ncfpry	mu.șu.ro.a.ie.le	mușuro'aiele	m u S u r o a j e l e
-60847	182936	mușuroaielor	mușuroi	Ncfpoy	mu.șu.ro.a.ie.lor	mușuro'aielor	m u S u r o a j e l o r
+60845	182934	mușuroaie	mușuroi	Ncfp-n	mu.șu.roa.ie	mușuro'aie	m u S u r o_X a j e
+60846	182935	mușuroaiele	mușuroi	Ncfpry	mu.șu.roa.ie.le	mușuro'aiele	m u S u r o_X a j e l e
+60847	182936	mușuroaielor	mușuroi	Ncfpoy	mu.șu.roa.ie.lor	mușuro'aielor	m u S u r o_X a j e l o r
 60848	182937	mușuroi	=	Ncms-n	mu.șu.roi	mușur'oi	m u S u r o j
 60849	182939	muți	mut	Ncmp-n	muți	m'uți	m u ts i_0
 60850	182942	muții	mut	Ncmpry	mu.ții	m'uții	m u ts i j
@@ -61147,7 +61147,7 @@
 61145	183760	munte	=	Ncms-n	mun.te	m'unte	m u n t e
 61146	183762	muntean	=	Ncms-n	mun.tean	munte'an	m u n t e_X a n
 61147	183768	munteanul	muntean	Ncmsry	mun.tea.nul	munte'anul	m u n t e_X a n u l
-61148	183769	munteanule	muntean	Ncmsvy	mun.tea.nu.le	munt'eanule	m u n t e_X a n u l e
+61148	183769	munteanule	muntean	Ncmsvy	mun.tea.nu.le	munte'anule	m u n t e_X a n u l e
 61149	183771	munteanului	muntean	Ncmsoy	mun.tea.nu.lui	munte'anului	m u n t e_X a n u l u j
 61150	183773	muntele	munte	Ncmsry	mun.te.le	m'untele	m u n t e l e
 61151	183774	muntelui	munte	Ncmsoy	mun.te.lui	m'untelui	m u n t e l u j
@@ -63912,9 +63912,9 @@
 63910	201717	noroace	noroc	Ncfp-n	no.roa.ce	noro'ace	n o r o_X a tS e
 63911	201718	noroacele	noroc	Ncfpry	no.roa.ce.le	noro'acele	n o r o_X a tS e l e
 63912	201719	noroacelor	noroc	Ncfpoy	no.roa.ce.lor	noro'acelor	n o r o_X a tS e l o r
-63913	201720	noroaie	noroi	Ncfp-n	no.ro.a.ie	noro'aie	n o r o a j e
-63914	201721	noroaiele	noroi	Ncfpry	no.ro.a.ie.le	noro'aiele	n o r o a j e l e
-63915	201722	noroaielor	noroi	Ncfpoy	no.ro.a.ie.lor	noro'aielor	n o r o a j e l o r
+63913	201720	noroaie	noroi	Ncfp-n	no.roa.ie	noro'aie	n o r o_X a j e
+63914	201721	noroaiele	noroi	Ncfpry	no.roa.ie.le	noro'aiele	n o r o_X a j e l e
+63915	201722	noroaielor	noroi	Ncfpoy	no.roa.ie.lor	noro'aielor	n o r o_X a j e l o r
 63916	201730	noroc	=	Ncms-n	no.roc	nor'oc	n o r o k
 63917	201745	norocul	noroc	Ncmsry	no.ro.cul	nor'ocul	n o r o k u l
 63918	201746	norocului	noroc	Ncmsoy	no.ro.cu.lui	nor'ocului	n o r o k u l u j
@@ -98871,7 +98871,7 @@
 98869	304917	vele	velă	Ncfson	ve.le	v'ele	v e l e
 98870	304918	veleat	=	Ncms-n	ve.leat	vele'at	v e l e_X a t
 98871	304919	veleatul	veleat	Ncmsry	ve.lea.tul	vele'atul	v e l e_X a t u l
-98872	304920	veleatule	veleat	Ncmsvy	ve.le.a.tu.le	vel'eatule	v e l e a t u l e
+98872	304920	veleatule	veleat	Ncmsvy	ve.lea.tu.le	vele'atule	v e l e_X a t u l e
 98873	304921	veleatului	veleat	Ncmsoy	ve.lea.tu.lui	vele'atului	v e l e_X a t u l u j
 98874	304922	veleaturi	veleat	Ncfp-n	ve.lea.turi	vele'aturi	v e l e_X a t u r i_0
 98875	304923	veleaturile	veleat	Ncfpry	ve.lea.tu.ri.le	vele'aturile	v e l e_X a t u r i l e

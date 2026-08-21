@@ -60,6 +60,19 @@ def get_new_ending(chg_seq : list[tuple[str, str]]) -> list[str]:
          i -= 1
     return [t[1] for t in chg_seq[i+1:]]
 
+
+def form_ends_with(form:str, end:str) -> bool:
+    if form and form[-1] not in lexicon_utils.ORTHO_VOWELS:
+        form = '0'
+    return form.endswith(end)
+ 
+def noun_matches_endings(form_sg:str, form_pl:str, ends_sg:list[str], ends_pl:list[str]) -> list[tuple]:
+    matches = []
+    for e_sg, e_pl in zip(ends_sg, ends_pl):
+        if form_ends_with(form_sg, e_sg) and form_ends_with(form_pl, e_pl):
+            matches.append((e_sg, e_pl))
+    return matches
+
 if __name__ == "__main__":
     import pickle
 
@@ -68,28 +81,76 @@ if __name__ == "__main__":
     with open('./lexicon/plurals_indices.p', 'rb') as handle:
         plural_dict : dict[tuple, list] = pickle.load(handle)
 
+    flex_df = pd.read_csv('./lang_data/subst_flex_clase.tsv', sep='\t')
+
     print('Extracting data')
     plural_dict = {k:v for k,v in plural_dict.items() if v}
     index_set = set([t[0] for t in plural_dict.keys()]) |\
             set(itertools.chain.from_iterable([[t[0] for t in v] for v in plural_dict.values()]))
     entries = df[df['INDEX'].isin(index_set)].to_dict(orient='records')
     entry_dict = {d['INDEX']:lexicon_utils.FormEntry.from_dict(d) for d in entries}
+    
 
-    print('Processing...')
-    change_list : list[FormChangeRecord] = []
-    for (sing_index, _), plur_list in plural_dict.items():
-        for plur_index, _ in plur_list:
-            change_rec = compare_entries(entry_dict[sing_index], entry_dict[plur_index])
-            change_rec.input_index, change_rec.output_index = sing_index, plur_index
-            change_list.append(change_rec)
+    def generate_change_records():
+        print('Loading')
+        df = pd.read_csv('./lexicon/nouns.v3.tsv', sep='\t')
+        with open('./lexicon/plurals_indices.p', 'rb') as handle:
+            plural_dict : dict[tuple, list] = pickle.load(handle)
 
-    change_list_bak = [FormChangeRecord(**dataclasses.asdict(seq)) for seq in change_list]
+        print('Extracting data')
+        plural_dict = {k:v for k,v in plural_dict.items() if v}
+        index_set = set([t[0] for t in plural_dict.keys()]) |\
+                set(itertools.chain.from_iterable([[t[0] for t in v] for v in plural_dict.values()]))
+        entries = df[df['INDEX'].isin(index_set)].to_dict(orient='records')
+        entry_dict = {d['INDEX']:lexicon_utils.FormEntry.from_dict(d) for d in entries}
 
-    print('Filtering')
-    for rec in change_list:
-        if len(rec.change_sequences) == 1:
-            continue
-        ending_lens = [len(get_new_ending(seq)) for seq in rec.change_sequences]
-        max_len = max(ending_lens)
-        rec.change_sequences = [seq for seq, seq_len in zip(rec.change_sequences, ending_lens)
+        print('Processing...')
+        change_list : list[FormChangeRecord] = []
+        for (sing_index, _), plur_list in plural_dict.items():
+            for plur_index, _ in plur_list:
+                change_rec = compare_entries(entry_dict[sing_index], entry_dict[plur_index])
+                change_rec.input_index, change_rec.output_index = sing_index, plur_index
+                change_list.append(change_rec)
+
+        change_list_bak = [FormChangeRecord(**dataclasses.asdict(seq)) for seq in change_list]
+
+        print('Filtering')
+        for rec in change_list:
+            if len(rec.change_sequences) == 1:
+                continue
+            ending_lens = [len(get_new_ending(seq)) for seq in rec.change_sequences]
+            max_len = max(ending_lens)
+            rec.change_sequences = [seq for seq, seq_len in zip(rec.change_sequences, ending_lens)
                                                          if seq_len==max_len]
+
+# {("'ă", "'ăi"), ('u', 'ui'), ("'oa", "'oi"), ('l', ''), ("'o", "'oi"), ("'a", "'ei"),
+# ("'i", "'ii"), ("'ă", 'ăi'), ('i', 'i'), ('i', "'ii"), ("'ă", 'e'), ("'u", "'ui"),
+# ("'â", "'âi"), ('i', 'e'), ("'a", "'ai"), ("'ea", "'ei"), ("'i", 'ii'), ('e', 'e'),
+# ("'a", "'ăi"), ('i', 'ii'), ("'e", "'ei")}
+
+    def fix_noendings(chg_rec : dict):
+        # We will chop the last letter from the second member of the tuple. That will be the
+        # new ending. Exceptions are ('l', ''), which we leave, and ("'ă", 'e'), which is a mistake
+        # to be fixed: desinence=ă, new_ending=e, pop last tuple. ('e', 'e') is a mistake that is 
+        # not worth fixing. ('i', 'i') is a screwup of the type troliu/troliuri, where the chg_seq
+        # is ('^', '^'), ('t', 't'), ('r', 'r'), ("'o", 'o'), ('l', 'l'),
+        # ('', "'i"), ('', 'u'), ('', 'r'), ('i', 'i')]
+        # 115294/115310 should be elim (emanatie/emanari)
+        if chg_rec['new_ending']: # only change when no endings
+            return
+        final : tuple[str, str] = chg_rec['root_chg'][-1]
+        if final == ('l', ''): # leave as is
+            return
+        if final == ('e', 'e'):
+            chg_rec['eliminate'] = True
+            return
+        if final == ("'ă", 'e'):
+            chg_rec.update({'desinence':'ă', 'new_ending':'e'})
+            chg_rec['root_chg'].pop()
+            return
+        if final == ('i', 'i'):
+            chg_rec['eliminate'] = True
+            return
+        chg_rec['new_ending'] = final[1][-1]
+        chg_rec['root_chg'][-1] = (final[0], final[1][:-1])
+        

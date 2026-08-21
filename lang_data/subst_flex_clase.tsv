@@ -1,44 +1,42 @@
-Gen	DesSing	DesPlur	Exemple	Tip	Cut	Add
-Masc	0	i	elev/elevi			i
-Masc	iu	i	uliu/ulii		iu	ii
-Masc	u	i	flăcău/flăcăi		u	i
-Masc	o	i	picolo/picoli	neologisme	o	i
-Masc	0	eni	om/oameni	neregulat		eni
-Masc	ă	îni	tată/tătâni	vechi	ă	îni
-Masc	e	îni	frate/frătâni	vechi	e	îni
-Masc	e	eți	oaspe/oaspeți	vechi	e	eți
-Masc	ă	i	popă/popi	special	ă	i
-Masc	e	i	tutore/tutori		e	i
-Fem	a	le	macara/macarale			le
-Fem	ea	le	podea/podele			le
-Fem	ia	le	nuia/nuiele			le
-Fem	i	le	zi/zile			le
-Fem	ă	e	mamă/mame		ă	e
+gen	term_sg	term_pl	examples	type	desin_sg	desin_pl
 Fem	a	e	leva/leve		a	e
+Fem	a	i	șa/șei, manta/mantăi		a	i
+Fem	a	le	macara/macarale			le
+Fem	ă	e	mamă/mame		ă	e
+Fem	ă	i	gaură/găuri		ă	i
+Fem	ică	ele	rândunică/rândunele		ică	ele
+Fem	ă	ori	soră/surori	neregulat	ă	ori
 Fem	ă	uri	treabă/treburi		ă	uri
 Fem	e	uri	vreme/vremuri		e	uri
-Fem	le	i	vale/văi, cale/căi		le	i
+Fem	ea	le	podea/podele			le
+Fem	i	le	zi/zile			le
+Fem	ia	le	nuia/nuiele			le
 Fem	ie	i	baie/băi		ie	i
-Fem	e	i	idee/idei		e	i
-Fem	ă	ori	soră/surori	neregulat	ă	ori
-Fem	a	i	șa/șei, manta/mantăi		a	i
-Fem	ă	i	gaură/găuri		ă	i
-Fem	e	i	vulpe/vulpi		e	i
-Neutr	0	uri	drum/drumuri			uri
+Fem	le	i	vale/văi, cale/căi		le	i
+Masc	0	eni	om/oameni	neregulat		eni
+Masc	0	i	elev/elevi			i
+Masc	ă	i	popă/popi	special	ă	i
+Masc	ă	îni	tată/tătâni	vechi	ă	îni
+Masc	e	eți	oaspe/oaspeți	vechi	e	eți
+Masc	e	îni	frate/frătâni	vechi	e	îni
+Masc	iu	ii	uliu/ulii		iu	ii
+Masc	o	i	picolo/picoli	neologisme	o	i
+Masc	u	i	flăcău/flăcăi		u	i
+Masc|Fem	e	i	tutore/tutori, idee/idei, vulpe/vulpi		e	i
 Neutr	0	e	animal/animale			e
-Neutr	0	ete	cap/capete			ete
-Neutr	i	uri	beci/beciuri			uri
-Neutr	i	e	bici/bice		i	e
+Neutr	0	ete	cap/capete	neregulat?		ete
+Neutr	0	uri	drum/drumuri			uri
+Neutr	e	uri	degrade/degradeuri			uri
+Neutr	ci	ce	bici/bice		i	e
 Neutr	i	e	condei/condeie			e
-Neutr	e	uri	degrade/degradeuri		e	uri
-Neutr	u	uri	atu/atuuri			uri
+Neutr	i	uri	beci/beciuri			uri
+Neutr	iu	ie	chipiu/chipie		u	e
+Neutr	o	ale	caro/carale	vechi	o	ale
 Neutr	o	uri	zero/zerouri			uri
-Neutr	u	uri	lucru/lucruri, tablou/tablouri		u	uri
+Neutr	u	ă	ou/ouă	neregulat		ă
+Neutr	u	ale	atu/atale	vechi	u	ale
 Neutr	u	e	teatru/teatre		u	e
 Neutr	u	i	domeniu/domenii, consiliu/consilii		u	i
 Neutr	u	ie	brâu/brâie		u	ie
-Neutr	iu	ie	chipiu/chipie		u	e
-Neutr	u	ă	ou/ouă	neregulat		ă
-Neutr	u	ale	atu/atale	vechi	u	ale
-Neutr	o	ale	caro/carale	vechi	o	ale
-Fem	ă	le	rândunică/rândunele		ică	ele
+Neutr	u	uri	atu/atuuri			uri
+Neutr	u	uri	lucru/lucruri, tablou/tablouri		u	uri

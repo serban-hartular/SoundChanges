@@ -114,12 +114,12 @@ def stress2syllables(e : FormEntry, stress_sym : str = STRESS_MARK, syll_sym : s
             raise Exception(f'Error merging {e.stress}, {e.syllables} at chars {c_stress}, {c_syll}')
     return out_str
 
-def group_vowel_clusters(in_syllables : str,
+def group_vowel_clusters(in_syllables : str, to_cluster : set[str] = set(),
                          stress_sym : str = STRESS_MARK, syll_sym : str = SYLLABLE_MARK)\
                                                                      -> list[str]:
     syll_list = in_syllables.split(syll_sym)
     output_list = []
-    to_cluster = ORTHO_VOWELS | {stress_sym}
+    to_cluster = to_cluster or (ORTHO_VOWELS | {stress_sym})
     for syllable in syll_list:
         cluster_list = []
         for c in syllable:
@@ -128,7 +128,7 @@ def group_vowel_clusters(in_syllables : str,
             else:
                 cluster_list.append(c)
         output_list.extend(cluster_list)
-    return output_list
+    return output_list    
 
 def stress_mark_cleanup(in_clusters : list[str],
                         stress_sym : str = STRESS_MARK):
