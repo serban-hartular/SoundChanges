@@ -61,8 +61,8 @@ def process_pair(e_sg : lu.FormEntry, e_pl : lu.FormEntry,
     desinences = nfe.desin_sg, nfe.desin_pl
     syll_forms = lu.stress2syllables(e_sg), lu.stress2syllables(e_pl)
     syll_forms = tuple(stress_mark_cleanup(s) if "'" not in s else s for s in syll_forms)
-    syll_forms = tuple(chop_off_letters(s, len(d)) for s,d in zip(syll_forms, desinences))
-    chunks = tuple(group_letters(word, TO_GROUP) for word in syll_forms)
+    syll_forms_chopped = tuple(chop_off_letters(s, len(d)) for s,d in zip(syll_forms, desinences))
+    chunks = tuple(group_letters(word, TO_GROUP) for word in syll_forms_chopped)
 
     return {
         'input_form': e_sg.form,
@@ -107,8 +107,8 @@ class FormChangeRecord:
         return d
 
     @staticmethod
-    def from_dict(d : dict) -> FormChangeRecord:
-        rec = FormChangeRecord(**d)
+    def from_dict(d : dict) -> 'FormChangeRecord':
+        rec = FormChangeRecord(**{k:v for k,v in d.items() if k in FormChangeRecord.__annotations__})
         rec.change_sequences = [chg_seq_from_str(s) for s in d['change_sequences'].split('|')]
         return rec
 
@@ -163,10 +163,10 @@ if __name__ == "__main__":
     df = df.fillna('')
     nfe_list = lemmatize.NFE_from_df(df)
 
-    # Run
+    change_records = []
     for indices in plural_pairs:
         e1, e2 = [entry_dict[i] for i in indices]
-        ch_rec = generate_change_record(e1, e2, nfe_list, indices[0], indices[1])
-        if len(ch_rec.change_sequences) != 1:
-            print(ch_rec)
-            break
+        ch_rec = generate_change_record(e1, e2, nfe_list, *indices)
+        d = ch_rec.to_dict()
+        d['change_sequences'] = d['change_sequences'].split('|')[0].strip()
+        change_records.append(d)

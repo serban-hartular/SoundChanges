@@ -1,3 +1,5 @@
+import itertools
+
 from ortho_form_comparison2 import FormChangeRecord
 from lexicon_utils import ORTHO_VOWELS
 
@@ -43,8 +45,8 @@ def get_change_context(chg_rec : FormChangeRecord, chg_index : int) ->\
             raise Exception('Change chunk not found')
         change_start -= chunk_len # change position within chunk
         change_end -= chunk_len
-        immediate_forward, immediate_back = chunk[:change_start], chunk[change_end:]
-        context = {-1:{'immediate':immediate_back}, 1:{'immediate':immediate_forward}}
+        immediate_back, immediate_forward = chunk[:change_start], chunk[change_end:]
+        context = {'back':{'immediate':immediate_back}, 'forward':{'immediate':immediate_forward}}
         mod_chunks = ['^', '^'] + chunks[in_out] + ['$', '$']
         change_chunk += 2 # because we added 2 items at the beginning
         for delta in (-1, 1): # backwards and forwards
@@ -53,17 +55,52 @@ def get_change_context(chg_rec : FormChangeRecord, chg_index : int) ->\
             if consonants[0] in (ORTHO_VOWELS|{"'"}): # we have no consonants
                 vowels = consonants
                 consonants = ''
-            context[delta].update({'consonants':consonants, 'vowels':vowels})
-        contexts[in_out] = context
-    return context
+            context['back' if delta == -1 else 'forward'].update({'consonants':consonants, 'vowels':vowels})
+        contexts['in' if in_out == 0 else 'out'] = context
+    return contexts
 
-         
+def flatten_context(contexts : dict) -> dict[str, str]:
+    items = {}
+    for in_out, v0 in contexts.items():
+        for forward_back, v1 in v0.items():
+            for position, value in v1.items():
+                items['_'.join([position, forward_back, in_out])] = value
+    return items       
+
+def find_changes_from(change_from : str, change_sequence : list[tuple[str, str]]) -> list[int]:
+    index_list = []
+    for i, chg in enumerate(change_sequence):
+        if chg[0] == change_from:
+            index_list.append(i)
+    return index_list
 
 if __name__ == "__main__":
     df = pd.read_csv('./train_data/change_records.tsv', sep='\t')
+    df = df.fillna('')
     change_records = [FormChangeRecord.from_dict(r) for r in df.to_dict(orient='records')]
 
-    chg_rec = change_records[1012]
-    get_change_context(chg_rec, 5)
+    data_list = []
 
+    for change_from in {"'a", "e'a", 'i', 'e', "'i", "o'a", "'o", "'u", "'â",
+                        'ea', 'a', "'ă", 'o', "'e",  'ă'}: #'u', 'â',
+        filtered_changes = [(chg_rec, find_changes_from(change_from, chg_rec.change_sequences[0]))
+                        for chg_rec in change_records]
+        filtered_changes = [(chg_rec, chg_indices) for chg_rec, chg_indices in filtered_changes if chg_indices]
+        target_changes = list(itertools.chain.from_iterable(
+            [[(chg_rec, i) for i in chg_indices] for chg_rec, chg_indices in filtered_changes]))
+        for chg_rec, chg_index in target_changes:
+            change_sequence = chg_rec.change_sequences[0]
+            d = {'form':'/'.join([chg_rec.input_form, chg_rec.output_form]),
+                'ph_initial':change_sequence[chg_index][0],
+                'ph_changed':change_sequence[chg_index][1],
+                 'chg_index':chg_index,
+            }
+            d.update(flatten_context(get_change_context(chg_rec, chg_index)))
+            data_list.append(d)
+
+    df = pd.DataFrame(data_list)
+    df.to_csv('./train_data/change_data_all.tsv', sep='\t')
+        
+# Counter({"'a": 1926, "'o": 362, "e'a": 328, "o'a": 79, "'i": 50, 'o': 31, "'â": 28,
+# 'ă': 27, "'ă": 24, 'i': 23, 'a': 21, "'e": 21, 'e': 21, 'u': 16, "'u": 6, 'â': 4, 'ea': 2})
 
