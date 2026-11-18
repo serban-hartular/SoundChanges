@@ -1,0 +1,53 @@
+	ID	desinence_in	desinence_out	before	after	is_last_syll	result
+0	384	u	ie	l	u	1	'a
+1	385	u	i	l	u	1	'ă
+2	490	u	i	h	u	1	'ă
+3	603		e	b	r	1	'e
+4	1135		uri	p	d	1	'ă
+5	1438		i	p	r	1	'e
+6	1815	u	i	l	u	1	'ă
+7	2053	u	i	l	u	1	'ă
+8	2367		i	f	t	1	'e
+9	2417	ă	i	m	g	0	'ă
+10	2538	u	i	l	u	1	'ă
+11	2853		uri	ț	r	1	'ă
+12	2926		uri	f	ț	1	'ă
+13	3255	u	ie	r	u	1	'a
+14	4046	u	ie	c	u	1	'a
+15	4336	ă	i	p	n	0	'ă
+16	4439		uri	v	r	1	'ă
+17	4893		e	z	n	0	'ă
+18	4994		uri	v	l	1	'ă
+19	5000		e	r	s	0	'ă
+20	5154		i	f	t	1	'e
+21	5307		e	r	c	0	'ă
+22	5742	u	e	r	0	1	'e
+23	5926	u	i	m	t	0	'e
+24	6050	u	i	p	u	1	'ă
+25	6307	u	i	ț	u	1	'ă
+26	6494		uri	m	ț	1	'ă
+27	6555	ă	i	m	t	0	'ă
+28	6632	u	i	c	u	1	'ă
+29	7375	u	i	l	u	1	'ă
+30	7507	ă	i	p	t	0	'ă
+31	7637		e	v	ț	1	'e
+32	7826	u	ie	d	u	1	'a
+33	7875	u	ie	t	u	1	'a
+34	7895	u	i	b	u	1	'ă
+35	7964	u	i	l	u	1	'ă
+36	8112	u	ie	l	u	1	'ă
+37	8460		i	v	ț	1	'e
+38	8784	u	i	g	u	1	'ă
+39	9098		uri	v	r	1	'ă
+40	9275		e	m	r	1	'e
+41	9378		uri	v	z	1	'ă
+42	9379		e	v	z	1	'e
+43	9934	u	uri	g	u	1	'ă
+44	9980		i	v	r	1	'e
+45	10564	u	i	d	u	1	'ă
+46	10843		uri	m	t	1	'ă
+47	11003		uri	h	ț	1	'ă
+48	11326		e	b	ț	1	'e
+49	11528	e	i	r	d	0	'ă
+50	11659	u	ie	ț	u	1	'a
+51	11911	u	ie	d	u	1	'a

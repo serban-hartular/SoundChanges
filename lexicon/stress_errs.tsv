@@ -1,0 +1,384 @@
+input	input_index	desinence	output	output_index	new_ending	root_chg	fixed
+ge'amăt	135210		g'emete	135326	e	^/^ g/g e'a/'e m/m ă/e t/t	y
+vânzole'al	309730	ă	vânzol'eli	309731	i	^/^ v/v â/â n/n z/z o/o l/l e'a/'e l/l	y
+târgoviște'anc	299043	ă	târgovișt'ence	299049	e	^/^ t/t â/â r/r g/g o/o v/v i/i ș/ș t/t e'a/'e n/n c/c	y
+fere'astr	125536	ă	fer'estre	125589	e	^/^ f/f e/e r/r e'a/'e s/s t/t r/r	y
+cale'așc	56915	ă	cal'ești	56949	i	^/^ c/c a/a l/l e'a/'e ș/ș c/t	y
+concetățe'an	73691		concetăț'eni	73694	i	^/^ c/c o/o n/n c/c e/e t/t ă/ă ț/ț e'a/'e n/n	y
+leuște'an	165287		leușt'eni	165290	i	^/^ l/l e/e u/u ș/ș t/t e'a/'e n/n	y
+vrânce'an	309227		vrânc'eni	309245	i	^/^ v/v r/r â/â n/n c/c e'a/'e n/n	y
+ostene'al	208680	ă	osten'eli	208685	i	^/^ o/o s/s t/t e/e n/n e'a/'e l/l	y
+beteje'al	47327	ă	betej'eli	47328	i	^/^ b/b e/e t/t e/e j/j e'a/'e l/l	y
+vrânce'anc	309230	ă	vrânc'ence	309235	e	^/^ v/v r/r â/â n/n c/c e'a/'e n/n c/c	y
+roșe'aț	256865	ă	roș'eți	256874	i	^/^ r/r o/o ș/ș e'a/'e ț/ț	y
+mre'aj	182718	ă	mr'eje	182722	e	^/^ m/m r/r e'a/'e j/j	y
+dolje'anc	109070	ă	dolj'ence	109074	e	^/^ d/d o/o l/l j/j e'a/'e n/n c/c	y
+fle'anc	128361	ă	fl'enci	128398	i	^/^ f/f l/l e'a/'e n/n c/c	y
+pălăvrăge'al	209984	ă	pălăvrăg'eli	209985	i	^/^ p/p ă/ă l/l ă/ă v/v r/r ă/ă g/g e'a/'e l/l	y
+împotrive'al	315634	ă	împotriv'eli	315640	i	^/^ î/î m/m p/p o/o t/t r/r i/i v/v e'a/'e l/l	y
+olte'anc	205566	ă	olt'ence	205574	e	^/^ o/o l/l t/t e'a/'e n/n c/c	y
+gălățe'anc	134089	ă	gălăț'ence	134093	e	^/^ g/g ă/ă l/l ă/ă ț/ț e'a/'e n/n c/c	y
+clevete'al	67793	ă	clevet'eli	67794	i	^/^ c/c l/l e/e v/v e/e t/t e'a/'e l/l	y
+băimăre'anc	44024	ă	băimăr'ence	44028	e	^/^ b/b ăi/ăi m/m ă/ă r/r e'a/'e n/n c/c	y
+zdre'anț	311716	ă	zdr'ențe	311724	e	^/^ z/z d/d r/r e'a/'e n/n ț/ț	y
+socote'al	272620	ă	socot'eli	272625	i	^/^ s/s o/o c/c o/o t/t e'a/'e l/l	y
+bole'azn	50267	ă	bol'ezne	50271	e	^/^ b/b o/o l/l e'a/'e z/z n/n	y
+portune'alt	225327	ă	portun'elte	225328	e	^/^ p/p o/o r/r t/t u/u n/n e'a/'e l/l t/t	y
+asupre'al	38917	ă	asupr'eli	38922	i	^/^ a/a s/s u/u p/p r/r e'a/'e l/l	y
+basarabe'an	46161		basarab'eni	46174	i	^/^ b/b a/a s/s a/a r/r a/a b/b e'a/'e n/n	y
+agonise'al	24589	ă	agonis'eli	24594	i	^/^ a/a g/g o/o n/n i/i s/s e'a/'e l/l	y
+bălăce'al	44057	ă	bălăc'eli	44058	i	^/^ b/b ă/ă l/l ă/ă c/c e'a/'e l/l	y
+luce'afăr	167987		luc'eferi	167996	i	^/^ l/l u/u c/c e'a/'e f/f ă/e r/r	y
+brice'ag	51670		bric'ege	51674	e	^/^ b/b r/r i/i c/c e'a/'e g/g	y
+fete'asc	126007	ă	fet'ești	126013	i	^/^ f/f e/e t/t e'a/'e s/ș c/t	y
+fete'asc	126007	ă	fet'ești	126015	i	^/^ f/f e/e t/t e'a/'e s/ș c/t	y
+cire'ad	65993	ă	cir'ezi	65997	i	^/^ c/c i/i r/r e'a/'e d/z	y
+cetățe'an	62915		cetăț'eni	62939	i	^/^ c/c e/e t/t ă/ă ț/ț e'a/'e n/n	y
+buște'an	52414		bușt'eni	52418	i	^/^ b/b u/u ș/ș t/t e'a/'e n/n	y
+se'ar	265087	ă	s'eri	267376	i	^/^ s/s e'a/'e r/r	y
+împărăte'as	314973	ă	împărăt'ese	314978	e	^/^ î/î m/m p/p ă/ă r/r ă/ă t/t e'a/'e s/s	y
+olte'an	205563		olt'eni	205596	i	^/^ o/o l/l t/t e'a/'e n/n	y
+moște'an	179722		moșt'eni	179739	i	^/^ m/m o/o ș/ș t/t e'a/'e n/n	y
+ponegre'al	224381	ă	ponegr'eli	224383	i	^/^ p/p o/o n/n e/e g/g r/r e'a/'e l/l	y
+rumene'al	258721	ă	rumen'eli	258727	i	^/^ r/r u/u m/m e/e n/n e'a/'e l/l	y
+ghe'aț	136208	ă	gh'ețuri	136194	uri	^/^ g/g h/h e'a/'e ț/ț	y
+cinze'ac	65253	ă	cinz'eci	65254	i	^/^ c/c i/i n/n z/z e'a/'e c/c	y
+constănțe'anc	76658	ă	constănț'ence	76664	e	^/^ c/c o/o n/n s/s t/t ă/ă n/n ț/ț e'a/'e n/n c/c	y
+reșițe'anc	243169	ă	reșiț'ence	243173	e	^/^ r/r e/e ș/ș i/i ț/ț e'a/'e n/n c/c	y
+gâlce'av	140331	ă	gâlc'evi	140345	i	^/^ g/g â/â l/l c/c e'a/'e v/v	y
+șle'apc	1383	ă	șl'epci	1418	i	^/^ ș/ș l/l e'a/'e p/p c/c	y
+maramureșe'an	172280		maramureș'eni	172301	i	^/^ m/m a/a r/r a/a m/m u/u r/r e/e ș/ș e'a/'e n/n	y
+țarigrăde'an	3547		țarigrăd'eni	3557	i	^/^ ț/ț a/a r/r i/i g/g r/r ă/ă d/d e'a/'e n/n	y
+îmbrobode'al	314406	ă	îmbrobod'eli	314408	i	^/^ î/î m/m b/b r/r o/o b/b o/o d/d e'a/'e l/l	y
+târgoviște'an	299040		târgovișt'eni	299060	i	^/^ t/t â/â r/r g/g o/o v/v i/i ș/ș t/t e'a/'e n/n	y
+pitește'anc	220039	ă	piteșt'ence	220043	e	^/^ p/p i/i t/t e/e ș/ș t/t e'a/'e n/n c/c	y
+precupe'aț	227842	ă	precup'ețe	227844	e	^/^ p/p r/r e/e c/c u/u p/p e'a/'e ț/ț	y
+năime'al	185655	ă	năim'eli	185656	i	^/^ n/n ă/ă i/i m/m e'a/'e l/l	y
+sânge'ap	286331		sâng'epe	286336	e	^/^ s/s â/â n/n g/g e'a/'e p/p	y
+bre'asl	51514	ă	br'esle	51553	e	^/^ b/b r/r e'a/'e s/s l/l	y
+șle'a	1384	u	șl'ei	1410	i	^/^ ș/ș l/l e'a/'e	y
+egipte'an	113992		egipt'eni	114020	i	^/^ e/e g/g i/i p/p t/t e'a/'e n/n	y
+contratre'apt	79017	ă	contratr'epte	79018	e	^/^ c/c o/o n/n t/t r/r a/a t/t r/r e'a/'e p/p t/t	y
+măcăle'andr	168875	u	măcăl'endri	168878	i	^/^ m/m ă/ă c/c ă/ă l/l e'a/'e n/n d/d r/r	y
+bulibășe'al	53327	ă	bulibăș'eli	53328	i	^/^ b/b u/u l/l i/i b/b ă/ă ș/ș e'a/'e l/l	y
+ce'așc	60973	ă	c'ești	60955	i	^/^ c/c e'a/'e ș/ș c/t	y
+putreze'al	238298	ă	putrez'eli	238304	i	^/^ p/p u/u t/t r/r e/e z/z e'a/'e l/l	y
+abure'al	18943	ă	abur'eli	18949	i	^/^ a/a b/b u/u r/r e'a/'e l/l	y
+ture'atc	298256	ă	tur'etci	298270	i	^/^ t/t u/u r/r e'a/'e t/t c/c	y
+ghe'at	136205	ă	gh'ete	136291	e	^/^ g/g h/h e'a/'e t/t	y
+bombăne'al	50455	ă	bombăn'eli	50461	i	^/^ b/b o/o m/m b/b ă/ă n/n e'a/'e l/l	y
+ople'an	206692		opl'ene	206695	e	^/^ o/o p/p l/l e'a/'e n/n	y
+verde'aț	305310	ă	verd'ețuri	305315	uri	^/^ v/v e/e r/r d/d e'a/'e ț/ț	y
+rute'an	258981	ă	rut'ene	258985	e	^/^ r/r u/u t/t e'a/'e n/n	y
+aure'al	40371	ă	aur'eli	40385	i	^/^ a/a u/u r/r e'a/'e l/l	y
+ce'apc	61054	ă	c'epce	62037	e	^/^ c/c e'a/'e p/p c/c	y
+ce'apc	61054	ă	c'epci	62039	i	^/^ c/c e'a/'e p/p c/c	y
+ge'ant	135215	ă	g'enți	135356	i	^/^ g/g e'a/'e n/n t/ț	y
+mureșe'an	183972	ă	mureș'ene	183976	e	^/^ m/m u/u r/r e/e ș/ș e'a/'e n/n	y
+negre'aț	191123	ă	negr'eți	191138	i	^/^ n/n e/e g/g r/r e'a/'e ț/ț	y
+nene'ac	196199	ă	nen'ece	196201	e	^/^ n/n e/e n/n e'a/'e c/c	y
+nene'ac	196199	ă	nen'eci	196207	i	^/^ n/n e/e n/n e'a/'e c/c	y
+ucraine'an	299494	ă	ucrain'ene	299503	e	^/^ u/u c/c r/r ai/ai n/n e'a/'e n/n	y
+coree'an	80793		core'eni	80812	i	^/^ c/c o/o r/r e/e e'a/'e n/n	y
+împărțe'al	314999	ă	împărț'eli	315003	i	^/^ î/î m/m p/p ă/ă r/r ț/ț e'a/'e l/l	y
+jose'an	161178		jos'eni	161179	i	^/^ j/j o/o s/s e'a/'e n/n	y
+săte'an	260376		săt'eni	260382	i	^/^ s/s ă/ă t/t e'a/'e n/n	y
+rage'al	242394		rag'eli	242397	i	^/^ r/r a/a g/g e'a/'e l/l	y
+poticne'al	226109	ă	poticn'eli	226111	i	^/^ p/p o/o t/t i/i c/c n/n e'a/'e l/l	y
+constănțe'an	76655		constănț'eni	76672	i	^/^ c/c o/o n/n s/s t/t ă/ă n/n ț/ț e'a/'e n/n	y
+dâmbovițe'an	112185	ă	dâmboviț'ene	112194	e	^/^ d/d â/â m/m b/b o/o v/v i/i ț/ț e'a/'e n/n	y
+ne'amț	187641		n'emți	192047	i	^/^ n/n e'a/'e m/m ț/ț	y
+moldove'an	180907	ă	moldov'ene	180916	e	^/^ m/m o/o l/l d/d o/o v/v e'a/'e n/n	y
+ce'ap	61055	ă	c'epe	62044	e	^/^ c/c e'a/'e p/p	y
+munte'an	183762		munt'eni	183799	i	^/^ m/m u/u n/n t/t e'a/'e n/n	y
+cenușăre'as	61967	ă	cenușăr'ese	61968	e	^/^ c/c e/e n/n u/u ș/ș ă/ă r/r e'a/'e s/s	y
+încolăce'al	319112	ă	încolăc'eli	319118	i	^/^ î/î n/n c/c o/o l/l ă/ă c/c e'a/'e l/l	y
+bucurește'anc	52739	ă	bucureșt'ence	52745	e	^/^ b/b u/u c/c u/u r/r e/e ș/ș t/t e'a/'e n/n c/c	y
+păcăle'al	209474	ă	păcăl'eli	209479	i	^/^ p/p ă/ă c/c ă/ă l/l e'a/'e l/l	y
+ucraine'anc	299488	ă	ucrain'ence	299496	e	^/^ u/u c/c r/r ai/ai n/n e'a/'e n/n c/c	y
+cne'az	68380		cn'eji	68383	i	^/^ c/c n/n e'a/'e z/j	y
+cne'az	68380		cn'ezi	68393	i	^/^ c/c n/n e'a/'e z/z	y
+ște'ap	2498		șt'epi	2525	i	^/^ ș/ș t/t e'a/'e p/p	y
+fortăre'aț	130307	ă	fortăr'ețe	130308	e	^/^ f/f o/o r/r t/t ă/ă r/r e'a/'e ț/ț	y
+ce'af	61001	ă	c'efe	61265	e	^/^ c/c e'a/'e f/f	y
+ple'așc	221419	ă	pl'ești	221338	i	^/^ p/p l/l e'a/'e ș/ș c/t	y
+brașove'an	51291		brașov'eni	51305	i	^/^ b/b r/r a/a ș/ș o/o v/v e'a/'e n/n	y
+lugoje'anc	168243	ă	lugoj'ence	168244	e	^/^ l/l u/u g/g o/o j/j e'a/'e n/n c/c	y
+stre'așin	279075	ă	str'eșini	279067	i	^/^ s/s t/t r/r e'a/'e ș/ș i/i n/n	y
+fle'așc	128364	ă	fl'ești	128348	i	^/^ f/f l/l e'a/'e ș/ș c/t	y
+zlătăre'as	312945	ă	zlătăr'ese	312946	e	^/^ z/z l/l ă/ă t/t ă/ă r/r e'a/'e s/s	y
+dâmbovițe'an	112179		dâmboviț'eni	112200	i	^/^ d/d â/â m/m b/b o/o v/v i/i ț/ț e'a/'e n/n	y
+acre'al	20512	ă	acr'eli	20583	i	^/^ a/a c/c r/r e'a/'e l/l	y
+pătce'an	210701		pătc'ene	210704	e	^/^ p/p ă/ă t/t c/c e'a/'e n/n	y
+greșe'al	138806	ă	greș'eli	138811	i	^/^ g/g r/r e/e ș/ș e'a/'e l/l	y
+proste'al	235255	ă	prost'eli	235264	i	^/^ p/p r/r o/o s/s t/t e'a/'e l/l	y
+mome'al	181152	ă	mom'ele	181157	e	^/^ m/m o/o m/m e'a/'e l/l	y
+mome'al	181152	ă	mom'eli	181162	i	^/^ m/m o/o m/m e'a/'e l/l	y
+ale'as	26135	ă	al'ese	26415	e	^/^ a/a l/l e'a/'e s/s	y
+sprânce'an	275825	ă	sprânc'ene	275839	e	^/^ s/s p/p r/r â/â n/n c/c e'a/'e n/n	y
+brăile'anc	51259	ă	brăil'ence	51264	e	^/^ b/b r/r ă/ă i/i l/l e'a/'e n/n c/c	y
+brăile'anc	51259	ă	brăil'enci	51269	i	^/^ b/b r/r ă/ă i/i l/l e'a/'e n/n c/c	y
+suse'an	285874		sus'eni	285875	i	^/^ s/s u/u s/s e'a/'e n/n	y
+oște'an	202654		oșt'eni	202661	i	^/^ o/o ș/ș t/t e'a/'e n/n	y
+hre'apc	144093	ă	hr'epci	144138	i	^/^ h/h r/r e'a/'e p/p c/c	y
+bleotocăre'al	49211	ă	bleotocăr'eli	49216	i	^/^ b/b l/l eo/eo t/t o/o c/c ă/ă r/r e'a/'e l/l	y
+dimine'aț	105299	ă	dimin'eți	105301	i	^/^ d/d i/i m/m i/i n/n e'a/'e ț/ț	y
+transilvăne'an	294284		transilvăn'eni	294298	i	^/^ t/t r/r a/a n/n s/s i/i l/l v/v ă/ă n/n e'a/'e n/n	y
+fâșne'aț	133733	ă	fâșn'ețe	133734	e	^/^ f/f â/â ș/ș n/n e'a/'e ț/ț	y
+bucurește'an	52736		bucureșt'eni	52756	i	^/^ b/b u/u c/c u/u r/r e/e ș/ș t/t e'a/'e n/n	y
+nadice'anc	186500	ă	nadic'ence	186501	e	^/^ n/n a/a d/d i/i c/c e'a/'e n/n c/c	y
+priveghe'al	232359	ă	privegh'eli	232383	i	^/^ p/p r/r i/i v/v e/e g/g h/h e'a/'e l/l	y
+îndrăzne'al	321298	ă	îndrăzn'eli	321305	i	^/^ î/î n/n d/d r/r ă/ă z/z n/n e'a/'e l/l	y
+dughe'an	111428	ă	dugh'ene	111429	e	^/^ d/d u/u g/g h/h e'a/'e n/n	y
+dughe'an	111428	ă	dugh'eni	111434	i	^/^ d/d u/u g/g h/h e'a/'e n/n	y
+amorțe'al	29227	ă	amorț'eli	29232	i	^/^ a/a m/m o/o r/r ț/ț e'a/'e l/l	y
+zaporoje'an	310902		zaporoj'eni	310906	i	^/^ z/z a/a p/p o/o r/r o/o j/j e'a/'e n/n	y
+dobroge'anc	108617	ă	dobrog'ence	108619	e	^/^ d/d o/o b/b r/r o/o g/g e'a/'e n/n c/c	y
+îmbulze'al	314545	ă	îmbulz'eli	314550	i	^/^ î/î m/m b/b u/u l/l z/z e'a/'e l/l	y
+bistrițe'an	48757		bistriț'eni	48774	i	^/^ b/b i/i s/s t/t r/r i/i ț/ț e'a/'e n/n	y
+huduble'aj	144341	ă	hudubl'eje	144342	e	^/^ h/h u/u d/d u/u b/b l/l e'a/'e j/j	y
+mre'an	182720	ă	mr'ene	182734	e	^/^ m/m r/r e'a/'e n/n	y
+cocoloșe'al	69180	ă	cocoloș'eli	69181	i	^/^ c/c o/o c/c o/o l/l o/o ș/ș e'a/'e l/l	y
+ieșe'anc	145676	ă	ieș'ence	145683	e	^/^ ie/ie ș/ș e'a/'e n/n c/c	y
+se'amăn	265075		s'emeni	266316	i	^/^ s/s e'a/'e m/m ă/e n/n	y
+ge'an	135216	ă	g'ene	135367	e	^/^ g/g e'a/'e n/n	y
+țe'av	3585	ă	ț'evi	3723	i	^/^ ț/ț e'a/'e v/v	y
+ce'art	61084	ă	c'erturi	62731	uri	^/^ c/c e'a/'e r/r t/t	y
+ciople'al	65579	ă	ciopl'eli	65584	i	^/^ c/c io/io p/p l/l e'a/'e l/l	y
+ungure'asc	300924	ă	ungur'ești	300934	i	^/^ u/u n/n g/g u/u r/r e'a/'e s/ș c/t	y
+ungure'asc	300924	ă	ungur'ești	300936	i	^/^ u/u n/n g/g u/u r/r e'a/'e s/ș c/t	y
+morfole'al	182176	ă	morfol'eli	182178	i	^/^ m/m o/o r/r f/f o/o l/l e'a/'e l/l	y
+hunedore'anc	144501	ă	hunedor'ence	144505	e	^/^ h/h u/u n/n e/e d/d o/o r/r e'a/'e n/n c/c	y
+cerne'al	62518	ă	cern'eli	62526	i	^/^ c/c e/e r/r n/n e'a/'e l/l	y
+cerne'al	62518	ă	cern'eluri	62531	uri	^/^ c/c e/e r/r n/n e'a/'e l/l	y
+argeșe'an	35827		argeș'eni	35840	i	^/^ a/a r/r g/g e/e ș/ș e'a/'e n/n	y
+aghe'asm	24389	ă	agh'esme	24410	e	^/^ a/a g/g h/h e'a/'e s/s m/m	y
+ploiește'anc	222155	ă	ploieșt'ence	222159	e	^/^ p/p l/l o/o ie/ie ș/ș t/t e'a/'e n/n c/c	y
+țarigrăde'anc	3549	ă	țarigrăd'ence	3552	e	^/^ ț/ț a/a r/r i/i g/g r/r ă/ă d/d e'a/'e n/n c/c	y
+mese'an	175800		mes'eni	175810	i	^/^ m/m e/e s/s e'a/'e n/n	y
+reșițe'an	243166		reșiț'eni	243184	i	^/^ r/r e/e ș/ș i/i ț/ț e'a/'e n/n	y
+arăde'anc	34973	ă	arăd'ence	34977	e	^/^ a/a r/r ă/ă d/d e'a/'e n/n c/c	y
+obose'al	203485	ă	obos'eli	203490	i	^/^ o/o b/b o/o s/s e'a/'e l/l	y
+cântăre'aț	88109	ă	cântăr'ețe	88116	e	^/^ c/c â/â n/n t/t ă/ă r/r e'a/'e ț/ț	y
+ahee'an	25065		ahe'eni	25069	i	^/^ a/a h/h e/e e'a/'e n/n	y
+sătmăre'an	260395		sătmăr'eni	260408	i	^/^ s/s ă/ă t/t m/m ă/ă r/r e'a/'e n/n	y
+bage'ac	45131	ă	bag'eci	45132	i	^/^ b/b a/a g/g e'a/'e c/c	y
+botoșăne'anc	51134	ă	botoșăn'ence	51138	e	^/^ b/b o/o t/t o/o ș/ș ă/ă n/n e'a/'e n/n c/c	y
+lighe'an	165968		ligh'ene	165974	e	^/^ l/l i/i g/g h/h e'a/'e n/n	y
+coce'an	68975		coc'eni	68981	i	^/^ c/c o/o c/c e'a/'e n/n	y
+podbe'al	222854		podb'eli	222857	i	^/^ p/p o/o d/d b/b e'a/'e l/l	y
+hunedore'an	144498		hunedor'eni	144516	i	^/^ h/h u/u n/n e/e d/d o/o r/r e'a/'e n/n	y
+gălățe'an	134086		gălăț'eni	134104	i	^/^ g/g ă/ă l/l ă/ă ț/ț e'a/'e n/n	y
+cre'ang	82910	ă	cr'engi	83318	i	^/^ c/c r/r e'a/'e n/n g/g	y
+pode'aț	222869	ă	pod'ețe	222881	e	^/^ p/p o/o d/d e'a/'e ț/ț	y
+mire'as	178831	ă	mir'ese	178839	e	^/^ m/m i/i r/r e'a/'e s/s	y
+orășe'an	207212		orăș'eni	207234	i	^/^ o/o r/r ă/ă ș/ș e'a/'e n/n	y
+stre'aj	279073	ă	str'eji	279125	i	^/^ s/s t/t r/r e'a/'e j/j	y
+ture'ac	298252		tur'ece	298257	e	^/^ t/t u/u r/r e'a/'e c/c	y
+cetățe'an	62920	ă	cetăț'ene	62921	e	^/^ c/c e/e t/t ă/ă ț/ț e'a/'e n/n	y
+vârste'an	309825		vârst'eni	309834	i	^/^ v/v â/â r/r s/s t/t e'a/'e n/n	y
+dâmbovițe'anc	112182	ă	dâmboviț'ence	112187	e	^/^ d/d â/â m/m b/b o/o v/v i/i ț/ț e'a/'e n/n c/c	y
+sălăje'anc	259575	ă	sălăj'ence	259579	e	^/^ s/s ă/ă l/l ă/ă j/j e'a/'e n/n c/c	y
+brașove'an	51296	ă	brașov'ene	51300	e	^/^ b/b r/r a/a ș/ș o/o v/v e'a/'e n/n	y
+pământe'an	210079		pământ'eni	210095	i	^/^ p/p ă/ă m/m â/â n/n t/t e'a/'e n/n	y
+ungure'an	300917		ungur'eni	300927	i	^/^ u/u n/n g/g u/u r/r e'a/'e n/n	y
+zăgne'at	310439	ă	zăgn'ete	310440	e	^/^ z/z ă/ă g/g n/n e'a/'e t/t	y
+botoșăne'an	51131		botoșăn'eni	51149	i	^/^ b/b o/o t/t o/o ș/ș ă/ă n/n e'a/'e n/n	y
+teleormăne'anc	289067	ă	teleormăn'ence	289068	e	^/^ t/t e/e l/l e/e o/o r/r m/m ă/ă n/n e'a/'e n/n c/c	y
+înțepene'al	317195	ă	înțepen'eli	317201	i	^/^ î/î n/n ț/ț e/e p/p e/e n/n e'a/'e l/l	y
+răce'al	239003	ă	răc'eli	239008	i	^/^ r/r ă/ă c/c e'a/'e l/l	y
+pribe'ag	231088		prib'egi	231101	i	^/^ p/p r/r i/i b/b e'a/'e g/g	y
+maramureșe'anc	172283	ă	maramureș'ence	172290	e	^/^ m/m a/a r/r a/a m/m u/u r/r e/e ș/ș e'a/'e n/n c/c	y
+cre'ast	82935	ă	cr'este	83449	e	^/^ c/c r/r e'a/'e s/s t/t	y
+beștele'al	46681	ă	beștel'eli	46683	i	^/^ b/b e/e ș/ș t/t e/e l/l e'a/'e l/l	y
+ive'al	159718	ă	iv'eli	159723	i	^/^ i/i v/v e'a/'e l/l	y
+plictise'al	221863	ă	plictis'eli	221868	i	^/^ p/p l/l i/i c/c t/t i/i s/s e'a/'e l/l	y
+jupâne'as	161689	ă	jupân'ese	161690	e	^/^ j/j u/u p/p â/â n/n e'a/'e s/s	y
+ve'ac	304569		v'eci	304636	i	^/^ v/v e'a/'e c/c	y
+moldovene'asc	180922	ă	moldoven'ești	180935	i	^/^ m/m o/o l/l d/d o/o v/v e/e n/n e'a/'e s/ș c/t	y
+moldovene'asc	180922	ă	moldoven'ești	180937	i	^/^ m/m o/o l/l d/d o/o v/v e/e n/n e'a/'e s/ș c/t	y
+tăure'anc	287155		tăur'enci	287158	i	^/^ t/t ă/ă u/u r/r e'a/'e n/n c/c	y
+giuvaiergere'as	137093	ă	giuvaierger'ese	137094	e	^/^ g/g iu/iu v/v a/a ie/ie r/r g/g e/e r/r e'a/'e s/s	y
+ilfove'anc	146329	ă	ilfov'ence	146333	e	^/^ i/i l/l f/f o/o v/v e'a/'e n/n c/c	y
+moldove'an	180897		moldov'eni	180949	i	^/^ m/m o/o l/l d/d o/o v/v e'a/'e n/n	y
+ureche'al	301666	ă	urech'eli	301689	i	^/^ u/u r/r e/e c/c h/h e'a/'e l/l	y
+câmpe'an	88054		câmp'eni	88058	i	^/^ c/c â/â m/m p/p e'a/'e n/n	y
+slătine'an	271246		slătin'eni	271257	i	^/^ s/s l/l ă/ă t/t i/i n/n e'a/'e n/n	y
+ce'at	61126	ă	c'ete	62910	e	^/^ c/c e'a/'e t/t	y
+coree'an	80798	ă	core'ene	80806	e	^/^ c/c o/o r/r e/e e'a/'e n/n	y
+bănățe'an	44289		bănăț'eni	44303	i	^/^ b/b ă/ă n/n ă/ă ț/ț e'a/'e n/n	y
+amețe'al	28428	ă	ameț'eli	28433	i	^/^ a/a m/m e/e ț/ț e'a/'e l/l	y
+șle'aht	1363	ă	șl'ehte	1405	e	^/^ ș/ș l/l e'a/'e h/h t/t	y
+pădure'an	209745		pădur'eni	209749	i	^/^ p/p ă/ă d/d u/u r/r e'a/'e n/n	y
+dădăce'al	88606	ă	dădăc'eli	88607	i	^/^ d/d ă/ă d/d ă/ă c/c e'a/'e l/l	y
+fierbințe'al	126462	ă	fierbinț'eli	126463	i	^/^ f/f ie/ie r/r b/b i/i n/n ț/ț e'a/'e l/l	y
+gorje'anc	137926	ă	gorj'ence	137930	e	^/^ g/g o/o r/r j/j e'a/'e n/n c/c	y
+ucraine'an	299484		ucrain'eni	299511	i	^/^ u/u c/c r/r ai/ai n/n e'a/'e n/n	y
+egipte'an	114002	ă	egipt'ene	114011	e	^/^ e/e g/g i/i p/p t/t e'a/'e n/n	y
+moldove'anc	180901	ă	moldov'ence	180909	e	^/^ m/m o/o l/l d/d o/o v/v e'a/'e n/n c/c	y
+albe'aț	25809	ă	alb'eți	25827	i	^/^ a/a l/l b/b e'a/'e ț/ț	y
+cluje'an	68351		cluj'eni	68367	i	^/^ c/c l/l u/u j/j e'a/'e n/n	y
+ce'aț	60982	ă	c'ețuri	60964	uri	^/^ c/c e'a/'e ț/ț	y
+craiove'anc	82592	ă	craiov'ence	82596	e	^/^ c/c r/r a/a io/io v/v e'a/'e n/n c/c	y
+săge'at	259519	ă	săg'eți	259552	i	^/^ s/s ă/ă g/g e'a/'e t/ț	y
+europe'an	118402		europ'eni	118419	i	^/^ e/e u/u r/r o/o p/p e'a/'e n/n	y
+dulce'aț	111596	ă	dulc'eți	111610	i	^/^ d/d u/u l/l c/c e'a/'e ț/ț	y
+dulce'aț	111596	ă	dulc'ețuri	111615	uri	^/^ d/d u/u l/l c/c e'a/'e ț/ț	y
+jne'apăn	161024		jn'epeni	161027	i	^/^ j/j n/n e'a/'e p/p ă/e n/n	y
+meste'acăn	175853		mest'eceni	175900	i	^/^ m/m e/e s/s t/t e'a/'e c/c ă/e n/n	y
+văle'an	303147		văl'eni	303151	i	^/^ v/v ă/ă l/l e'a/'e n/n	y
+hodoroge'al	143360	ă	hodorog'eli	143362	i	^/^ h/h o/o d/d o/o r/r o/o g/g e'a/'e l/l	y
+înăcre'al	316533	ă	înăcr'eli	316539	i	^/^ î/î n/n ă/ă c/c r/r e'a/'e l/l	y
+ciocofle'andur	65435	ă	ciocofl'enduri	65441	i	^/^ c/c io/io c/c o/o f/f l/l e'a/'e n/n d/d u/u r/r	y
+ge'amăn	135202		g'emeni	135315	i	^/^ g/g e'a/'e m/m ă/e n/n	y
+colce'ag	69970		colc'egi	69973	i	^/^ c/c o/o l/l c/c e'a/'e g/g	y
+vâlce'an	309485		vâlc'eni	309509	i	^/^ v/v â/â l/l c/c e'a/'e n/n	y
+pede'aps	215282	ă	ped'epse	215309	e	^/^ p/p e/e d/d e'a/'e p/p s/s	y
+ge'ac	135168	ă	g'eci	135223	i	^/^ g/g e'a/'e c/c	y
+preote'as	229540	ă	preot'ese	229541	e	^/^ p/p r/r e/e o/o t/t e'a/'e s/s	y
+tecuce'an	288629		tecuc'eni	288630	i	^/^ t/t e/e c/c u/u c/c e'a/'e n/n	y
+umeze'al	300358	ă	umez'eli	300363	i	^/^ u/u m/m e/e z/z e'a/'e l/l	y
+dele'an	93943		del'eni	94047	i	^/^ d/d e/e l/l e'a/'e n/n	y
+bihore'an	47840		bihor'eni	47851	i	^/^ b/b i/i h/h o/o r/r e'a/'e n/n	y
+tre'ab	295492	ă	tr'ebi	295512	i	^/^ t/t r/r e'a/'e b/b	y
+tre'ab	295492	ă	tr'eburi	295560	uri	^/^ t/t r/r e'a/'e b/b	y
+tre'apt	295496	ă	tr'epte	295889	e	^/^ t/t r/r e'a/'e p/p t/t	y
+îmbrânce'al	314417	ă	îmbrânc'eli	314423	i	^/^ î/î m/m b/b r/r â/â n/n c/c e'a/'e l/l	y
+găle'at	134052	ă	găl'eți	134053	i	^/^ g/g ă/ă l/l e'a/'e t/ț	y
+une'alt	300826	ă	un'elte	300835	e	^/^ u/u n/n e'a/'e l/l t/t	y
+țe'ap	3577	ă	ț'epe	3619	e	^/^ ț/ț e'a/'e p/p	y
+bucătăre'as	52560	ă	bucătăr'ese	52561	e	^/^ b/b u/u c/c ă/ă t/t ă/ă r/r e'a/'e s/s	y
+rute'an	258976		rut'eni	258990	i	^/^ r/r u/u t/t e'a/'e n/n	y
+samarite'an	261359		samarit'eni	261363	i	^/^ s/s a/a m/m a/a r/r i/i t/t e'a/'e n/n	y
+voscre'asn	308830	ă	voscr'esne	308831	e	^/^ v/v o/o s/s c/c r/r e'a/'e s/s n/n	y
+dre'apt	110543	ă	dr'epte	110614	e	^/^ d/d r/r e'a/'e p/p t/t	y
+crăpce'an	82518		crăpc'eni	82522	i	^/^ c/c r/r ă/ă p/p c/c e'a/'e n/n	y
+gre'aț	138901	ă	gr'ețuri	138869	uri	^/^ g/g r/r e'a/'e ț/ț	y
+chepene'ag	63326		chepen'ege	63332	e	^/^ c/c h/h e/e p/p e/e n/n e'a/'e g/g	y
+învălmășe'al	329410	ă	învălmăș'eli	329411	i	^/^ î/î n/n v/v ă/ă l/l m/m ă/ă ș/ș e'a/'e l/l	y
+cire'aș	65996	ă	cir'eșe	66003	e	^/^ c/c i/i r/r e'a/'e ș/ș	y
+vâlce'anc	309488	ă	vâlc'ence	309498	e	^/^ v/v â/â l/l c/c e'a/'e n/n c/c	y
+semidre'apt	266432	ă	semidr'epte	266433	e	^/^ s/s e/e m/m i/i d/d r/r e'a/'e p/p t/t	y
+brambure'al	51367	ă	brambur'eli	51368	i	^/^ b/b r/r a/a m/m b/b u/u r/r e'a/'e l/l	y
+cocle'al	69084	ă	cocl'eli	69085	i	^/^ c/c o/o c/c l/l e'a/'e l/l	y
+hre'an	144089		hr'eni	144094	i	^/^ h/h r/r e'a/'e n/n	y
+mangle'al	171698	ă	mangl'eli	171704	i	^/^ m/m a/a n/n g/g l/l e'a/'e l/l	y
+consăte'an	75831		consăt'eni	75834	i	^/^ c/c o/o n/n s/s ă/ă t/t e'a/'e n/n	y
+proțăpe'al	232626	ă	proțăp'eli	232628	i	^/^ p/p r/r o/o ț/ț ă/ă p/p e'a/'e l/l	y
+dovle'ac	110018		dovl'eci	110029	i	^/^ d/d o/o v/v l/l e'a/'e c/c	y
+pomene'al	224115	ă	pomen'eli	224121	i	^/^ p/p o/o m/m e/e n/n e'a/'e l/l	y
+focșăne'an	129239		focșăn'eni	129247	i	^/^ f/f o/o c/c ș/ș ă/ă n/n e'a/'e n/n	y
+mete'ahn	176217	ă	met'ehne	176218	e	^/^ m/m e/e t/t e'a/'e h/h n/n	y
+meremetise'al	175564	ă	meremetis'eli	175565	i	^/^ m/m e/e r/r e/e m/m e/e t/t i/i s/s e'a/'e l/l	y
+mureșe'an	183967		mureș'eni	183982	i	^/^ m/m u/u r/r e/e ș/ș e'a/'e n/n	y
+le'af	164090	ă	l'efuri	164305	uri	^/^ l/l e'a/'e f/f	y
+cotre'anț	82138	ă	cotr'ențe	82139	e	^/^ c/c o/o t/t r/r e'a/'e n/n ț/ț	y
+focșăne'anc	129241	ă	focșăn'ence	129242	e	^/^ f/f o/o c/c ș/ș ă/ă n/n e'a/'e n/n c/c	y
+p'unctbal	237665		p'unctbaluri	237671	uri	^/^ p/p 'u/'u n/n c/c t/t b/b a/a l/l	y
+autocraț'i	41044	e	autocraț'ii	41046	i	^/^ a/a u/u t/t o/o c/c r/r a/a ț/ț 'i/'i	y
+sar'i	261776		sar'iuri	261782	uri	^/^ s/s a/a r/r 'i/'i	y
+l'andras	163531		l'andrași	163535	i	^/^ l/l 'a/'a n/n d/d r/r a/a s/ș	y
+hatman'i	141656	e	hatman'ii	141658	i	^/^ h/h a/a t/t m/m a/a n/n 'i/'i	y
+pastr'am	214280	ă	pastr'ămuri	214281	uri	^/^ p/p a/a s/s t/t r/r 'a/'ă m/m	y
+c'artă	59556	ă	c'arte	59592	e	^/^ c/c 'a/'a r/r t/t	y
+grandoman'i	138516	e	grandoman'ii	138518	i	^/^ g/g r/r a/a n/n d/d o/o m/m a/a n/n 'i/'i	y
+af'in	23779		af'ini	23780	i	^/^ a/a f/f 'i/'i n/n	y
+b'orviz	50905		b'orvize	50906	e	^/^ b/b 'o/'o r/r v/v i/i z/z	y
+'oblig	203275	ă	'obligi	203373	i	^/^ 'o/'o b/b l/l i/i g/g	y
+pr'om	234421	o	pr'omouri	234463	ouri	^/^ p/p r/r 'o/'o m/m	y
+protect'or	235448		protect'ori	235450	i	^/^ p/p r/r o/o t/t e/e c/c t/t 'o/'o r/r	y
+martirol'ogi	172925	u	martirol'ogii	172921	i	^/^ m/m a/a r/r t/t i/i r/r o/o l/l 'o/'o g/g i/i	y
+gun'o	139899	i	guno'aie	139896	ie	^/^ g/g u/u n/n 'o/o'a	y
+convect'or	79469		convect'ori	79470	i	^/^ c/c o/o n/n v/v e/e c/c t/t 'o/'o r/r	y
+p'ort	225164	o	p'ortouri	225213	ouri	^/^ p/p 'o/'o r/r t/t	y
+m'ot	182489	o	m'otouri	182674	ouri	^/^ m/m 'o/'o t/t	y
+hesper'ornis	142104		hesper'orniși	142108	i	^/^ h/h e/e s/s p/p e/e r/r 'o/'o r/r n/n i/i s/ș	y
+mușur'o	182937	i	mușuro'aie	182934	ie	^/^ m/m u/u ș/ș u/u r/r 'o/o'a	y
+b'oston	50973		b'ostonuri	50978	uri	^/^ b/b 'o/'o s/s t/t o/o n/n	y
+sp'ortsmen	275607		sp'ortsmeni	275609	i	^/^ s/s p/p 'o/'o r/r t/t s/s m/m e/e n/n	y
+nor'o	201747	i	noro'aie	201720	ie	^/^ n/n o/o r/r 'o/o'a	y
+preasfinț'i	227415	e	preasfinț'ii	227417	i	^/^ p/p r/r ea/ea s/s f/f i/i n/n ț/ț 'i/'i	y
+protivnic'i	235693	e	protivnic'ii	235695	i	^/^ p/p r/r o/o t/t i/' v/v n/n i/i c/c 'i/'i	y
+cort'egi	81375	u	cort'egii	81372	i	^/^ c/c o/o r/r t/t 'e/'e g/g i/i	y
+animal'icul	31055		animal'iculi	31056	i	^/^ a/a n/n i/i m/m a/a l/l 'i/'i c/c u/u l/l	y
+autopast'iș	42072	ă	autopast'ișe	42061	e	^/^ a/a u/u t/t o/o p/p a/a s/s t/t 'i/'i ș/ș	y
+f'izic	127894		f'izicuri	127923	uri	^/^ f/f 'i/'i z/z i/i c/c	y
+franc'iz	131250	ă	franc'ize	131239	e	^/^ f/f r/r a/a n/n c/c 'i/'i z/z	y
+laitmot'iv	163345		laitmot'ivuri	163351	uri	^/^ l/l ai/ai t/t m/m o/o t/t 'i/'i v/v	y
+pedofil'i	215424	e	pedofil'ii	215427	i	^/^ p/p e/e d/d o/o f/f i/i l/l 'i/'i	y
+sfârșit'ur	268749	ă	sfârșit'uri	268742	i	^/^ s/s f/f â/â r/r ș/ș i/i t/t 'u'/u r/r	y
+zângănit'ur	313619	ă	zângănit'uri	313614	i	^/^ z/z â/â n/n g/g ă/ă n/n i/i t/t 'u/'u r/r	y
+interatr'acți	154794	e	interatr'acții	154796	i	^/^ i/i n/n t/t e/e r/r 'a/'a t/t r/r a/a c/c ț/ț i/i	y
+l'ideră	165945	ă	l'idere	165933	e	^/^ l/l 'i/'i d/d e/e r/r	y
+t'enis	289608		t'eniși	289634	i	^/^ t/t 'e/'e n/n i/i s/ș	y
+ideolog'i	145503	e	ideolog'ii	145506	i	^/^ i/i d/d e/e o/o l/l o/o g/g 'i/'i	y
+jid'ov	160810		jid'ovi	160837	i	^/^ j/j i/i d/d 'o/'o v/v	y
+cascador'i	59829	e	casador'ii	59760	i	^/^ c/c a/a s/s c/ a/a d/d o/o r/r 'i/'i	y
+bord'ur	50840	ă	bord'uri	50832	i	^/^ b/b o/o r/r d/d 'u/'u r/r	y
+c'omis	71374		c'omiși	71340	i	^/^ c/c 'o/'o m/m i/i s/ș	y
+armon'i	36519	e	armon'ii	36527	i	^/^ a/a r/r m/m o/o n/n 'i/'i	y
+rec'ordman	245800		rec'ordmeni	245807	i	^/^ r/r e/e c/c 'o/'o r/r d/d m/m a/e n/n	y
+licantrop'i	165625	e	licantrop'ii	165627	i	^/^ l/l i/i c/c a/a n/n t/t r/r o/o p/p 'i/'i	y
+cl'onă	68214	ă	cl'one	68264	e	^/^ c/c l/l 'o/'o n/n	y
+ipsocrom'i	158214	e	ipsocrom'ii	158216	i	^/^ i/i p/p s/s o/o c/c r/r o/o m/m 'i/'i	y
+lepidod'endron	165155		lepidod'endroni	165156	i	^/^ l/l e/e p/p i/i d/d o/o d/d 'e/'e n/n d/d r/r o/o n/n	y
+'althorn	27326		'althorni	27327	i	^/^ 'a/'a l/l t/t h/h o/o r/r n/n	y
+neguțător'i	191251	e	neguțător'ii	191254	i	^/^ n/n e/e g/g u/u ț/ț ă/ă t/t o/o r/r 'i/'i	y
+zgr'ipțor	312272		zgr'ipțori	312273	i	^/^ z/z g/g r/r 'i/'i p/p ț/ț o/o r/r	y
+m'ijloc	177380		m'ijlocuri	177459	uri	^/^ m/m 'i/'i j/j l/l o/o c/c	y
+c'uri	87130	e	c'urii	87148	i	^/^ c/c 'u/'u r/r i/i	y
+'index	149963		'indecși	149873	și	^/^ 'i/'i n/n d/d e/e x/c	y
+fâșâ'it	133777		fâșâ'ituri	133782	uri	^/^ f/f â/â ș/ș â/â 'i/'i t/t	y
+'item	159589		it'eme	159590	e	^/^ 'i/i t/t e/'e m/m	exclude
+'item	159589		it'emi	159593	i	^/^ 'i/i t/t e/'e m/m	exclude
+'item	159589		it'emuri	159598	uri	^/^ 'i/i t/t e/'e m/m	exclude
+cunun'i	86462	e	cunun'ii	86464	i	^/^ c/c u/u n/n u/u n/n 'i/'i	y
+preoț'i	229457	e	preoț'ii	229461	i	^/^ p/p r/r e/e o/o ț/ț 'i/'i	y
+sforă'it	268500		sforă'ituri	268504	uri	^/^ s/s f/f o/o r/r ă/ă 'i/'i t/t	y
+aghenț'i	24402	e	aghenț'ii	24405	i	^/^ a/a g/g h/h e/e n/n ț/ț 'i/'i	y
+v'indiac	306873		v'indiacuri	306876	uri	^/^ v/v 'i/'i n/n d/d ia/ia c/c	y
+ș'eic	704		ș'eicuri	712	uri	^/^ ș/ș 'e/'e i/i c/c	y
+tovărăș'i	293043	e	tovărăș'ii	293035	i	^/^ t/t o/o v/v ă/ă r/r ă/ă ș/ș 'i/'i	y
+'iz	159793		'izuri	160185	uri	^/^ 'i/'i z/z	y
+ozocher'it	209327	ă	ozocher'ite	209322	e	^/^ o/o z/z o/o c/c h/h e/e r/r 'i/'i t/t	y
+pr'urit	236246		pr'urituri	236249	uri	^/^ p/p r/r 'u/'u r/r i/i t/t	y
+nec'inst	188529	e	necinsti	188547	i	^/^ n/n e/e c/c 'i/i n/n s/s t/t	exclude
+meșter'i	174006	e	meșter'ii	174010	i	^/^ m/m e/e ș/ș t/t e/e r/r 'i/'i	y
+ru'in	258521	ă	ru'ini	258514	i	^/^ r/r u/'u 'i/'i n/n	y
+ghic'it	136353		ghic'ituri	136376	uri	^/^ g/g h/h i/i c/c 'i/'i t/t	y
+fâlfâ'it	133808		fâlfâ'ituri	133814	uri	^/^ f/f â/â l/l f/f â/â 'i/'i t/t	y
+m'ix	179350		m'ixuri	179441	uri	^/^ m/m 'i/i x/x	y
+ep'iscop	116639		episc'oape	116636	e	^/^ e/e p/p 'i/i s/s c/c o/'oa p/p	exclude
+năsâlnic'i	186083	e	năsâlnic'ii	186085	i	^/^ n/n ă/ă s/s â/â l/l n/n i/i c/c 'i/'i	y
+angel'ic	30779	ă	angel'ice	30764	e	^/^ a/a n/n g/g e/e l/l 'i/'i c/c	y
+r'adi	241803	o	radi'ouri	242296	ouri	^/^ r/r 'a/a d/d i/i	y
+t'aft	287567		t'afturi	287580	uri	^/^ t/t 'a/'a f/f t/t	y
+microclim'at	176960		microclim'aturi	176962	uri	^/^ m/m i/i c/c r/r o/o c/c l/l i/i m/m 'a/'a t/t	y
+d'am	89264	i	dam'iuri	89267	iuri	^/^ d/d 'a/a m/m	exclude
+culc'at	85486		culc'aturi	85500	uri	^/^ c/c u/u l/l c/c 'a/'a t/t	y
+'aul	40359	ă	'aule	40354	e	^/^ 'a/'a u/u l/l	y
+clim'at	67854		clim'aturi	67914	uri	^/^ c/c l/l i/i m/m 'a/'a t/t	y
+taif'as	287627		taif'asuri	287631	uri	^/^ t/t ai/'ai f/f 'a/a s/s	y
+v'et	305886	o	v'etouri	305889	ouri	^/^ v/v 'e/'e t/t	y
+t'emp	289465	o	temp'ouri	289495	ouri	^/^ t/t 'e/e m/m p/p	y
+clavic'embal	67618	o	clavicembal'ouri	67621	ouri	^/^ c/c l/l a/a v/v i/i c/c 'e/e m/m b/b a/a l/l	exclude
+z'er	312098	o	zer'ouri	312101	ouri	^/^ z/z 'e/e r/r	y
+nepri'eten	197362		nepri'eteni	197370	i	^/^ n/n e/e p/p r/r i/i 'e/'e t/t e/e n/n	y
+ecl'er	112972		ecl'eruri	112985	uri	^/^ e/e c/c l/l 'e/'e r/r	y
+cântic'el	88232		cântic'ele	88243	e	^/^ c/c â/â n/n t/t i/i c/c 'e/'e l/l	y
+vult'oar	309365	e	vult'ori	309367	i	^/^ v/v u/u l/l t/t 'oa/'o r/r	y
+'august	40319		'auguști	40348	i	^/^ 'au/'au g/g u/u s/ș t/t	exclude
+bucs'ă	52681	u	bucs'ăi	52679	i	^/^ b/b u/u c/c s/s 'ă/'ă	y
+ciocofl'eandur	65435	ă	ciocofl'endure	65436	e	^/^ c/c io/io c/c o/o f/f l/l e'a/'e n/n d/d u/u r/r	y
+tr'ailer	293740		tr'ailere	293741	e	^/^ t/t r/r 'ai/'ai l/l e/e r/r	y
+bătrân'ic	44757	ă	bătr'ânele	44707	e	^/^ b/b ă/ă t/t r/r â/'â n/n 'i/e c/l	exclude
+scr'ânciob	264163		scr'âncioabe	264160	e	^/^ s/s c/c r/r 'â/'â n/n c/c io/ioa b/b	y
+predictibilit'at	228148	e	predictibilit'ăți	228164	i	^/^ p/p r/r e/e d/d i/i c/c t/t i/i b/b i/i l/l i/i t/t 'a/'ă t/ț	y
+di'abol	104156	o	di'abolouri	104159	ouri	^/^ d/d i'a/i'a b/b o/o l/l	y
+nail'on	186557		nail'oane	186554	e	^/^ n/n ai/ai l/l 'o/'oa n/n	y
+cai	56637	'a	cai'ele	56640	le	^/^ c/c a/a i'a/i'e	y
+boi	49996	'a	boi'ele	50067	le	^/^ b/b o/o i'a/i'e	y
+boi	49996	'a	boi'eli	50072	li	^/^ b/b o/o i'a/i'e	y
+nui	202280	'a	nui'ele	202282	le	^/^ n/n u/u i'a/i'e	y
+mi	176739	'a	mi'ele	177179	le	^/^ m/m i'a/i'e	y
+sirmai	270805	'a	sirmai'ale	270806	le	^/^ s/s i/i r/r m/m a/a i'a/i'a	y

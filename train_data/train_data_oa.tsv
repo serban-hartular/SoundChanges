@@ -1,0 +1,334 @@
+	form	ph_initial	ph_changed	immediate_back_in	consonants_back_in	vowels_back_in	immediate_forward_in	consonants_forward_in	vowels_forward_in	immediate_back_out	consonants_back_out	vowels_back_out	immediate_forward_out	consonants_forward_out	vowels_forward_out
+0	stânișoară/stânișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+1	nerecunoaștere/nerecunoașteri	o'a	o'a		n	u		șt	e		n	u		șt	e
+2	cloambă/cloambe	o'a	o'a		cl	^		mb	ă		cl	^		mb	e
+3	gogoașă/gogoașe	o'a	o'a		g	o		ș	ă		g	o		ș	e
+4	gogoașă/gogoși	o'a	'o		g	o		ș	ă		g	o		ș	i
+5	șoarece/șoareci	o'a	o'a		ș	^		r	e		ș	^		r	e
+6	tigroaică/tigroaice	o'a	o'a		gr	i	i	c	ă		gr	i	i	c	e
+7	tigroaică/tigroaicele	o'a	o'a		gr	i	i	c	ă		gr	i	i	c	e
+8	fleoarcă/fleoarce	o'a	o'a	e	fl	^		rc	ă	e	fl	^		rc	e
+9	coamă/coame	o'a	o'a		c	^		m	ă		c	^		m	e
+10	boabă/boabe	o'a	o'a		b	^		b	ă		b	^		b	e
+11	învelitoare/învelitori	o'a	'o		t	i		r	e		t	i		r	i
+12	fântâioară/fântâioare	o'a	o'a	i		â		r	ă	i		â		r	e
+13	strigoaică/strigoaice	o'a	o'a		g	i	i	c	ă		g	i	i	c	e
+14	poală/poale	o'a	o'a		p	^		l	ă		p	^		l	e
+15	oaie/oi	o'a	'o		^	^			ie		^	^	i	$	$
+16	stoarcere/stoarceri	o'a	o'a		st	^		rc	e		st	^		rc	e
+17	drojdioară/drojdioare	o'a	o'a			i		r	ă			i		r	e
+18	șoaptă/șoapte	o'a	o'a		ș	^		pt	ă		ș	^		pt	e
+19	cioarsă/cioarse	o'a	o'a	i	c	^		rs	ă	i	c	^		rs	e
+20	hoțoaică/hoțoaice	o'a	o'a		ț	o	i	c	ă		ț	o	i	c	e
+21	hoțoaică/hoțoaicele	o'a	o'a		ț	o	i	c	ă		ț	o	i	c	e
+22	gioală/gioale	o'a	o'a	i	g	^		l	ă	i	g	^		l	e
+23	junioară/junioare	o'a	o'a			i		r	ă			i		r	e
+24	sărăntoacă/sărăntoace	o'a	o'a		nt	ă		c	ă		nt	ă		c	e
+25	roată/roți	o'a	'o		r	^		t	ă		r	^		ț	i
+26	roată/roate	o'a	o'a		r	^		t	ă		r	^		t	e
+27	cloanță/cloanțe	o'a	o'a		cl	^		nț	ă		cl	^		nț	e
+28	tohoarcă/tohoarce	o'a	o'a		h	o		rc	ă		h	o		rc	e
+29	candoare/candori	o'a	'o		nd	a		r	e		nd	a		r	i
+30	sperietoare/sperietori	o'a	'o		t	e		r	e		t	e		r	i
+31	teroare/terori	o'a	'o		r	e		r	e		r	e		r	i
+32	ciocănitoare/ciocănitori	o'a	'o		t	i		r	e		t	i		r	i
+33	splendoare/splendori	o'a	'o		nd	e		r	e		nd	e		r	i
+34	zgripsoroaică/zgripsoroaice	o'a	o'a		r	o	i	c	ă		r	o	i	c	e
+35	zgripsoroaică/zgripsoroaicele	o'a	o'a		r	o	i	c	ă		r	o	i	c	e
+36	necunoaștere/necunoașteri	o'a	o'a		n	u		șt	e		n	u		șt	e
+37	oală/oale	o'a	o'a		^	^		l	ă		^	^		l	e
+38	profesoară/profesoare	o'a	o'a		s	e		r	ă		s	e		r	e
+39	vigoare/vigori	o'a	'o		g	i		r	e		g	i		r	i
+40	inferioară/inferioare	o'a	o'a			i		r	ă			i		r	e
+41	pișoarcă/pișoarce	o'a	o'a		ș	i		rc	ă		ș	i		rc	e
+42	pișoarcă/pișorci	o'a	'o		ș	i		rc	ă		ș	i		rc	i
+43	boacănă/boacăne	o'a	o'a		b	^		c	ă		b	^		c	ă
+44	scuipătoare/scuipători	o'a	'o		t	ă		r	e		t	ă		r	i
+45	lăcrămioară/lăcrămioare	o'a	o'a	i	m	ă		r	ă	i	m	ă		r	e
+46	poamă/poame	o'a	o'a		p	^		m	ă		p	^		m	e
+47	noapte/nopți	o'a	'o		n	^		pt	e		n	^		pț	i
+48	vicecampioană/vicecampioane	o'a	o'a	i	mp	a		n	ă	i	mp	a		n	e
+49	boambă/boambe	o'a	o'a		b	^		mb	ă		b	^		mb	e
+50	scoroambă/scoroambe	o'a	o'a		r	o		mb	ă		r	o		mb	e
+51	țoapă/țoape	o'a	o'a		ț	^		p	ă		ț	^		p	e
+52	privighetoare/privighetori	o'a	'o		t	e		r	e		t	e		r	i
+53	aripioară/aripioare	o'a	o'a	i	p	i		r	ă	i	p	i		r	e
+54	ninsoare/ninsori	o'a	'o		ns	i		r	e		ns	i		r	i
+55	goarnă/goarne	o'a	o'a		g	^		rn	ă		g	^		rn	e
+56	caraghioasă/caraghioase	o'a	o'a	i	gh	a		s	ă	i	gh	a		s	e
+57	favoare/favoruri	o'a	'o		v	a		r	e		v	a		r	u
+58	comoară/comori	o'a	'o		m	o		r	ă		m	o		r	i
+59	gărăfioară/gărăfioare	o'a	o'a	i	f	ă		r	ă	i	f	ă		r	e
+60	iepuroaică/iepuroaice	o'a	o'a		r	u	i	c	ă		r	u	i	c	e
+61	doagă/doage	o'a	o'a		d	^		g	ă		d	^		g	e
+62	scrântitoare/scrântitori	o'a	'o		t	i		r	e		t	i		r	i
+63	escroacă/escroace	o'a	o'a		scr	e		c	ă		scr	e		c	e
+64	cucoană/cucoane	o'a	o'a		c	u		n	ă		c	u		n	e
+65	zmeoaică/zmeoaice	o'a	o'a			e	i	c	ă			e	i	c	e
+66	zmeoaică/zmeoaicele	o'a	o'a			e	i	c	ă			e	i	c	e
+67	chinezoaică/chinezoaice	o'a	o'a		z	e	i	c	ă		z	e	i	c	e
+68	hoață/hoațe	o'a	o'a		h	^		ț	ă		h	^		ț	e
+69	poartă/porți	o'a	'o		p	^		rt	ă		p	^		rț	i
+70	scatoalcă/scatoalce	o'a	o'a		t	a		lc	ă		t	a		lc	e
+71	lipitoare/lipitori	o'a	'o		t	i		r	e		t	i		r	i
+72	scorțișoară/scorțișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+73	sârboaică/sârboaice	o'a	o'a		rb	â	i	c	ă		rb	â	i	c	e
+74	chiștoacă/chiștoace	o'a	o'a		șt	i		c	ă		șt	i		c	e
+75	proașcă/proaște	o'a	o'a		pr	^		șc	ă		pr	^		șt	e
+76	franțuzoaică/franțuzoaice	o'a	o'a		z	u	i	c	ă		z	u	i	c	e
+77	toană/toane	o'a	o'a		t	^		n	ă		t	^		n	e
+78	joantă/joante	o'a	o'a		j	^		nt	ă		j	^		nt	e
+79	căprioară/căprioare	o'a	o'a			i		r	ă			i		r	e
+80	coală/coale	o'a	o'a		c	^		l	ă		c	^		l	e
+81	coală/coli	o'a	'o		c	^		l	ă		c	^		l	i
+82	furoare/furori	o'a	'o		r	u		r	e		r	u		r	i
+83	pâinișoară/pâinișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+84	coacăză/coacăze	o'a	o'a		c	^		c	ă		c	^		c	ă
+85	plioapă/plioape	o'a	o'a			i		p	ă			i		p	e
+86	măsurătoare/măsurători	o'a	'o		t	ă		r	e		t	ă		r	i
+87	hoașcă/hoaște	o'a	o'a		h	^		șc	ă		h	^		șt	e
+88	ascunzătoare/ascunzători	o'a	'o		t	ă		r	e		t	ă		r	i
+89	soartă/sorți	o'a	'o		s	^		rt	ă		s	^		rț	i
+90	mănăstioară/mănăstioare	o'a	o'a			i		r	ă			i		r	e
+91	pârloagă/pârloage	o'a	o'a		rl	â		g	ă		rl	â		g	e
+92	consoană/consoane	o'a	o'a		ns	o		n	ă		ns	o		n	e
+93	mahalagioaică/mahalagioaice	o'a	o'a	i	g	a	i	c	ă	i	g	a	i	c	e
+94	mahalagioaică/mahalagioaicele	o'a	o'a	i	g	a	i	c	ă	i	g	a	i	c	e
+95	bănicioară/bănicioare	o'a	o'a	i	c	i		r	ă	i	c	i		r	e
+96	toamnă/toamne	o'a	o'a		t	^		mn	ă		t	^		mn	e
+97	scroambă/scroambe	o'a	o'a		scr	^		mb	ă		scr	^		mb	e
+98	arăboaică/arăboaice	o'a	o'a		b	ă	i	c	ă		b	ă	i	c	e
+99	arăboaică/arăboaicele	o'a	o'a		b	ă	i	c	ă		b	ă	i	c	e
+100	coajă/coji	o'a	'o		c	^		j	ă		c	^		j	i
+101	șchioapă/șchioape	o'a	o'a	i	șch	^		p	ă	i	șch	^		p	e
+102	verișoară/verișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+103	strâmtoare/strâmtori	o'a	'o		mt	â		r	e		mt	â		r	i
+104	groază/groaze	o'a	o'a		gr	^		z	ă		gr	^		z	e
+105	mincinoasă/mincinoase	o'a	o'a		n	i		s	ă		n	i		s	e
+106	goangă/goange	o'a	o'a		g	^		ng	ă		g	^		ng	e
+107	econoamă/econoame	o'a	o'a		n	o		m	ă		n	o		m	e
+108	șfoară/șfori	o'a	'o		șf	^		r	ă		șf	^		r	i
+109	fleoancă/fleoance	o'a	o'a	e	fl	^		nc	ă	e	fl	^		nc	e
+110	rigoare/rigori	o'a	'o		g	i		r	e		g	i		r	i
+111	licoare/licori	o'a	'o		c	i		r	e		c	i		r	i
+112	ardoare/ardori	o'a	'o		rd	a		r	e		rd	a		r	i
+113	șerpoaică/șerpoaice	o'a	o'a		rp	e	i	c	ă		rp	e	i	c	e
+114	afișoară/afișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+115	balansoar/balansoare	o'a	o'a		ns	a		r	$		ns	a		r	e
+116	zvoană/zvoane	o'a	o'a		zv	^		n	ă		zv	^		n	e
+117	sărbătoare/sărbători	o'a	'o		t	ă		r	e		t	ă		r	i
+118	patroană/patroane	o'a	o'a		tr	a		n	ă		tr	a		n	e
+119	mescioară/mescioare	o'a	o'a	i	sc	e		r	ă	i	sc	e		r	e
+120	săsoaică/săsoaice	o'a	o'a		s	ă	i	c	ă		s	ă	i	c	e
+121	săsoaică/săsoaicele	o'a	o'a		s	ă	i	c	ă		s	ă	i	c	e
+122	alămâioară/alămâioare	o'a	o'a	i		â		r	ă	i		â		r	e
+123	toantă/toante	o'a	o'a		t	^		nt	ă		t	^		nt	e
+124	rufșoară/rufșoare	o'a	o'a		fș	u		r	ă		fș	u		r	e
+125	sprijoană/sprijoane	o'a	o'a		j	i		n	ă		j	i		n	e
+126	broască/broaște	o'a	o'a		br	^		sc	ă		br	^		șt	e
+127	hoardă/hoarde	o'a	o'a		h	^		rd	ă		h	^		rd	e
+128	campioană/campioane	o'a	o'a			i		n	ă			i		n	e
+129	coardă/coarde	o'a	o'a		c	^		rd	ă		c	^		rd	e
+130	coardă/corzi	o'a	'o		c	^		rd	ă		c	^		rz	i
+131	chioară/chioare	o'a	o'a	i	ch	^		r	ă	i	ch	^		r	e
+132	scrisoare/scrisori	o'a	'o		s	i		r	e		s	i		r	i
+133	hoanghină/hoanghine	o'a	o'a		h	^		ngh	i		h	^		ngh	i
+134	goană/goane	o'a	o'a		g	^		n	ă		g	^		n	e
+135	moarte/morți	o'a	'o		m	^		rt	e		m	^		rț	i
+136	schioară/schioare	o'a	o'a			i		r	ă			i		r	e
+137	fervoare/fervori	o'a	'o		rv	e		r	e		rv	e		r	i
+138	nonvaloare/nonvalori	o'a	'o		l	a		r	e		l	a		r	i
+139	leoarbă/leoarbe	o'a	o'a	e	l	^		rb	ă	e	l	^		rb	e
+140	vultoare/vultori	o'a	'o		lt	u		r	e		lt	'u		r	i
+141	pepenoaică/pepenoaice	o'a	o'a		n	e	i	c	ă		n	e	i	c	e
+142	pepenoaică/pepenoaicele	o'a	o'a		n	e	i	c	ă		n	e	i	c	e
+143	cârligioară/cârligioare	o'a	o'a	i	g	i		r	ă	i	g	i		r	e
+144	cărucioară/cărucioare	o'a	o'a	i	c	u		r	ă	i	c	u		r	e
+145	boaltă/boalte	o'a	o'a		b	^		lt	ă		b	^		lt	e
+146	groapă/gropi	o'a	'o		gr	^		p	ă		gr	^		p	i
+147	târcoală/târcoale	o'a	o'a		rc	â		l	ă		rc	â		l	e
+148	tărăboanță/tărăboanțe	o'a	o'a		b	ă		nț	ă		b	ă		nț	e
+149	ticăloasă/ticăloase	o'a	o'a		l	ă		s	ă		l	ă		s	e
+150	lupoaică/lupoaice	o'a	o'a		p	u	i	c	ă		p	u	i	c	e
+151	coarbă/coarbe	o'a	o'a		c	^		rb	ă		c	^		rb	e
+152	peștișoară/peștișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+153	mucoasă/mucoase	o'a	o'a		c	u		s	ă		c	u		s	e
+154	boroboață/boroboațe	o'a	o'a		b	o		ț	ă		b	o		ț	e
+155	școală/școli	o'a	'o		șc	^		l	ă		șc	^		l	i
+156	doamnă/doamne	o'a	o'a		d	^		mn	ă		d	^		mn	e
+157	oază/oaze	o'a	o'a		^	^		z	ă		^	^		z	e
+158	fântânioară/fântânioare	o'a	o'a	i	n	â		r	ă	i	n	â		r	e
+159	eroare/erori	o'a	'o		r	e		r	e		r	e		r	i
+160	ghicitoare/ghicitori	o'a	'o		t	i		r	e		t	i		r	i
+161	întoarcere/întoarceri	o'a	o'a		nt	î		rc	e		nt	î		rc	e
+162	pavoaz/pavoaze	o'a	o'a		v	a		z	$		v	a		z	e
+163	foaie/foi	o'a	'o		f	^			ie		f	^	i	$	$
+164	pucioasă/pucioase	o'a	o'a	i	c	u		s	ă	i	c	u		s	e
+165	plusvaloare/plusvalori	o'a	'o		l	a		r	e		l	a		r	i
+166	radioșcoală/radioșcoli	o'a	'o		șc	o		l	ă		șc	o		l	i
+167	boarfă/boarfe	o'a	o'a		b	^		rf	ă		b	^		rf	e
+168	azbucoavnă/azbucoavne	o'a	o'a		c	u		vn	ă		c	u		vn	e
+169	bomboană/bomboane	o'a	o'a		mb	o		n	ă		mb	o		n	e
+170	moașă/moașe	o'a	o'a		m	^		ș	ă		m	^		ș	e
+171	scroafă/scroafe	o'a	o'a		scr	^		f	ă		scr	^		f	e
+172	coloană/coloane	o'a	o'a		l	o		n	ă		l	o		n	e
+173	nucșoară/nucșoare	o'a	o'a		cș	u		r	ă		cș	u		r	e
+174	domnișoară/domnișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+175	știoalfă/știoalfe	o'a	o'a	i	șt	^		lf	ă	i	șt	^		lf	e
+176	gloabă/gloabe	o'a	o'a		gl	^		b	ă		gl	^		b	e
+177	oaste/oști	o'a	'o		^	^		st	e		^	^		șt	i
+178	pleznitoare/pleznitori	o'a	'o		t	i		r	e		t	i		r	i
+179	culoare/culori	o'a	'o		l	u		r	e		l	u		r	i
+180	gioarsă/gioarse	o'a	o'a	i	g	^		rs	ă	i	g	^		rs	e
+181	icoană/icoane	o'a	o'a		c	i		n	ă		c	i		n	e
+182	mioară/mioare	o'a	o'a			i		r	ă			i		r	e
+183	răcoare/răcori	o'a	'o		c	ă		r	e		c	ă		r	i
+184	voal/voaluri	o'a	o'a		v	^		l	$		v	^		l	u
+185	coarnă/coarne	o'a	o'a		c	^		rn	ă		c	^		rn	e
+186	tunsoare/tunsori	o'a	'o		ns	u		r	e		ns	u		r	i
+187	scarlatinoasă/scarlatinoase	o'a	o'a		n	i		s	ă		n	i		s	e
+188	cunoaștere/cunoașteri	o'a	o'a		n	u		șt	e		n	u		șt	e
+189	oroare/orori	o'a	'o		r	o		r	e		r	o		r	i
+190	boală/boale	o'a	o'a		b	^		l	ă		b	^		l	e
+191	boală/boli	o'a	'o		b	^		l	ă		b	^		l	i
+192	coadă/coade	o'a	o'a		c	^		d	ă		c	^		d	e
+193	coadă/cozi	o'a	'o		c	^		d	ă		c	^		z	i
+194	poanter/poanteri	o'a	o'a		p	^		nt	e		p	^		nt	e
+195	năpârstoacă/năpârstoace	o'a	o'a		rst	â		c	ă		rst	â		c	e
+196	frumoasă/frumoase	o'a	o'a		m	u		s	ă		m	u		s	e
+197	joardă/joarde	o'a	o'a		j	^		rd	ă		j	^		rd	e
+198	bulgăroaică/bulgăroaice	o'a	o'a		r	ă	i	c	ă		r	ă	i	c	e
+199	stihoavnă/stihoavne	o'a	o'a		h	i		vn	ă		h	i		vn	e
+200	spanioloaică/spanioloaice	o'a	o'a		l	o	i	c	ă		l	o	i	c	e
+201	spanioloaică/spanioloaicele	o'a	o'a		l	o	i	c	ă		l	o	i	c	e
+202	cioacă/cioace	o'a	o'a	i	c	^		c	ă	i	c	^		c	e
+203	holoangăr/holoangări	o'a	o'a		l	o		ng	ă		l	o		ng	ă
+204	strănepoată/strănepoate	o'a	o'a		p	e		t	ă		p	e		t	e
+205	troahnă/troahne	o'a	o'a		tr	^		hn	ă		tr	^		hn	e
+206	numărătoare/numărători	o'a	'o		t	ă		r	e		t	ă		r	i
+207	patinoar/patinoare	o'a	o'a		n	i		r	$		n	i		r	e
+208	patinoar/patinoari	o'a	o'a		n	i		r	$		n	i		r	i
+209	coasere/coaseri	o'a	o'a		c	^		s	e		c	^		s	e
+210	foac/foaci	o'a	o'a		f	^		c	$		f	^		c	i
+211	broboadă/broboade	o'a	o'a		b	o		d	ă		b	o		d	e
+212	coastă/coaste	o'a	o'a		c	^		st	ă		c	^		st	e
+213	șoarec/șoareci	o'a	o'a		ș	^		r	e		ș	^		r	e
+214	ploaie/ploi	o'a	'o		pl	^			ie		pl	^	i	$	$
+215	lavoar/lavoare	o'a	o'a		v	a		r	$		v	a		r	e
+216	coaptă/coapte	o'a	o'a		c	^		pt	ă		c	^		pt	e
+217	rusoaică/rusoaice	o'a	o'a		s	u	i	c	ă		s	u	i	c	e
+218	autocunoaștere/autocunoașteri	o'a	o'a		n	u		șt	e		n	u		șt	e
+219	compatrioată/compatrioate	o'a	o'a			i		t	ă			i		t	e
+220	vâltoare/vâltori	o'a	'o		lt	â		r	e		lt	â		r	i
+221	trăistioară/trăistioare	o'a	o'a			i		r	ă			i		r	e
+222	recunoaștere/recunoașteri	o'a	o'a		n	u		șt	e		n	u		șt	e
+223	vânătoare/vânători	o'a	'o		t	ă		r	e		t	ă		r	i
+224	sudoare/sudori	o'a	'o		d	u		r	e		d	u		r	i
+225	puștoaică/puștoaice	o'a	o'a		șt	u	i	c	ă		șt	u	i	c	e
+226	paspoal/paspoale	o'a	o'a		sp	a		l	$		sp	a		l	e
+227	paspoal/paspoaluri	o'a	o'a		sp	a		l	$		sp	a		l	u
+228	persoană/persoane	o'a	o'a		rs	e		n	ă		rs	e		n	e
+229	șoaldină/șoaldine	o'a	o'a		ș	^		ld	i		ș	^		ld	i
+230	oaspete/oaspeți	o'a	o'a		^	^		sp	e		^	^		sp	e
+231	șoantă/șoante	o'a	o'a		ș	^		nt	ă		ș	^		nt	e
+232	sfoară/sfori	o'a	'o		sf	^		r	ă		sf	^		r	i
+233	stupoare/stupori	o'a	'o		p	u		r	e		p	u		r	i
+234	lentoare/lentori	o'a	'o		nt	e		r	e		nt	e		r	i
+235	cocioabă/cocioabe	o'a	o'a	i	c	o		b	ă	i	c	o		b	e
+236	moară/mori	o'a	'o		m	^		r	ă		m	^		r	i
+237	garnizoană/garnizoane	o'a	o'a		z	i		n	ă		z	i		n	e
+238	valoare/valori	o'a	'o		l	a		r	e		l	a		r	i
+239	inimioară/inimioare	o'a	o'a	i	m	i		r	ă	i	m	i		r	e
+240	pleoapă/pleoape	o'a	o'a	e	pl	^		p	ă	e	pl	^		p	e
+241	luminoasă/luminoase	o'a	o'a		n	i		s	ă		n	i		s	e
+242	broajbă/broajbe	o'a	o'a		br	^		jb	ă		br	^		jb	e
+243	pocnitoare/pocnitori	o'a	'o		t	i		r	e		t	i		r	i
+244	contravaloare/contravalori	o'a	'o		l	a		r	e		l	a		r	i
+245	șoricioaică/șoricioaice	o'a	o'a	i	c	i	i	c	ă	i	c	i	i	c	e
+246	oardă/oarde	o'a	o'a		^	^		rd	ă		^	^		rd	e
+247	nebuloasă/nebuloase	o'a	o'a		l	u		s	ă		l	u		s	e
+248	cioancă/cioance	o'a	o'a	i	c	^		nc	ă	i	c	^		nc	e
+249	soare/sori	o'a	'o		s	^		r	e		s	^		r	i
+251	scoatere/scoateri	o'a	o'a		sc	^		t	e		sc	^		t	e
+252	zloată/zloate	o'a	o'a		zl	^		t	ă		zl	^		t	e
+253	coapsă/coapse	o'a	o'a		c	^		ps	ă		c	^		ps	e
+254	țărișoară/țărișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+255	troacă/troace	o'a	o'a		tr	^		c	ă		tr	^		c	e
+256	oarbă/oarbe	o'a	o'a		^	^		rb	ă		^	^		rb	e
+257	foarfec/foarfeci	o'a	o'a		f	^		rf	e		f	^		rf	e
+258	arăpoaică/arăpoaice	o'a	o'a		p	ă	i	c	ă		p	ă	i	c	e
+259	arăpoaică/arăpoaicele	o'a	o'a		p	ă	i	c	ă		p	ă	i	c	e
+260	podoabă/podoabe	o'a	o'a		d	o		b	ă		d	o		b	e
+261	toacă/toace	o'a	o'a		t	^		c	ă		t	^		c	e
+262	arendășoaică/arendășoaice	o'a	o'a		ș	ă	i	c	ă		ș	ă	i	c	e
+263	arendășoaică/arendășoaicele	o'a	o'a		ș	ă	i	c	ă		ș	ă	i	c	e
+264	aricioaică/aricioaice	o'a	o'a	i	c	i	i	c	ă	i	c	i	i	c	e
+265	aricioaică/aricioaicele	o'a	o'a	i	c	i	i	c	ă	i	c	i	i	c	e
+266	foarfecă/foarfece	o'a	o'a		f	^		rf	e		f	^		rf	e
+267	foarfecă/foarfeci	o'a	o'a		f	^		rf	e		f	^		rf	e
+268	cioară/ciori	o'a	'o	i	c	^		r	ă	i	c	^		r	i
+269	fecioară/fecioare	o'a	o'a	i	c	e		r	ă	i	c	e		r	e
+270	vioară/vioare	o'a	o'a			i		r	ă			i		r	e
+271	vioară/viori	o'a	'o			i		r	ă			i		r	i
+272	șoacăț/șoacăți	o'a	o'a		ș	^		c	ă		ș	^		c	ă
+273	reîntoarcere/reîntoarceri	o'a	o'a		nt	î		rc	e		nt	î		rc	e
+274	trânjoaică/trânjoaice	o'a	o'a		nj	â	i	c	ă		nj	â	i	c	e
+275	trânjoaică/trânjoaicele	o'a	o'a		nj	â	i	c	ă		nj	â	i	c	e
+276	amploare/amplori	o'a	'o		mpl	a		r	e		mpl	a		r	i
+277	englezoaică/englezoaice	o'a	o'a		z	e	i	c	ă		z	e	i	c	e
+278	duhoare/duhori	o'a	'o		h	u		r	e		h	u		r	i
+279	motoașcă/motoaște	o'a	o'a		t	o		șc	ă		t	o		șt	e
+280	ridichioară/ridichioare	o'a	o'a	i	ch	i		r	ă	i	ch	i		r	e
+281	moartă/moarte	o'a	o'a		m	^		rt	ă		m	^		rt	e
+282	mărfșoară/mărfșoare	o'a	o'a		rfș	ă		r	ă		rfș	ă		r	e
+283	cehoaică/cehoaice	o'a	o'a		h	e	i	c	ă		h	e	i	c	e
+284	spânzurătoare/spânzurători	o'a	'o		t	ă		r	e		t	ă		r	i
+285	unguroaică/unguroaice	o'a	o'a		r	u	i	c	ă		r	u	i	c	e
+286	petimbroasă/petimbroase	o'a	o'a		mbr	i		s	ă		mbr	i		s	e
+287	ciocoaică/ciocoaice	o'a	o'a		c	io	i	c	ă		c	io	i	c	e
+288	surioară/surioare	o'a	o'a			i		r	ă			i		r	e
+289	mustăcioară/mustăcioare	o'a	o'a	i	c	ă		r	ă	i	c	ă		r	e
+290	snoabă/snoabe	o'a	o'a		sn	^		b	ă		sn	^		b	e
+291	balaoacheș/balaoacheși	o'a	o'a			a		ch	e			a		ch	e
+292	coacere/coaceri	o'a	o'a		c	^		c	e		c	^		c	e
+293	scoarță/scoarțe	o'a	o'a		sc	^		rț	ă		sc	^		rț	e
+294	zglăvoacă/zglăvoace	o'a	o'a		v	ă		c	ă		v	ă		c	e
+295	coroană/coroane	o'a	o'a		r	o		n	ă		r	o		n	e
+296	cioatcă/cioatce	o'a	o'a	i	c	^		tc	ă	i	c	^		tc	e
+297	canceroasă/canceroase	o'a	o'a		r	e		s	ă		r	e		s	e
+298	păioară/păioare	o'a	o'a	i		ă		r	ă	i		ă		r	e
+299	scrumbioară/scrumbioare	o'a	o'a			i		r	ă			i		r	e
+300	credincioasă/credincioase	o'a	o'a	i	nc	i		s	ă	i	nc	i		s	e
+301	hoară/hoare	o'a	o'a		h	^		r	ă		h	^		r	e
+302	năfrămioară/năfrămioare	o'a	o'a	i	m	ă		r	ă	i	m	ă		r	e
+303	istorioară/istorioare	o'a	o'a			i		r	ă			i		r	e
+304	hoaspă/hoaspe	o'a	o'a		h	^		sp	ă		h	^		sp	e
+305	consoartă/consoarte	o'a	o'a		ns	o		rt	ă		ns	o		rt	e
+306	fermoar/fermoare	o'a	o'a		rm	e		r	$		rm	e		r	e
+307	nemțoaică/nemțoaice	o'a	o'a		mț	e	i	c	ă		mț	e	i	c	e
+308	coasă/coase	o'a	o'a		c	^		s	ă		c	^		s	e
+309	subsuoară/subsuori	o'a	'o			u		r	ă			u		r	i
+310	boscoană/boscoane	o'a	o'a		sc	o		n	ă		sc	o		n	e
+311	floare/flori	o'a	'o		fl	^		r	e		fl	^		r	i
+312	leoaică/leoaice	o'a	o'a			e	i	c	ă			e	i	c	e
+313	defavoare/defavori	o'a	'o		v	a		r	e		v	a		r	i
+314	cobzișoară/cobzișoare	o'a	o'a		ș	i		r	ă		ș	i		r	e
+315	soacră/soacre	o'a	o'a		s	^		cr	ă		s	^		cr	e
+316	prigoană/prigoane	o'a	o'a		g	i		n	ă		g	i		n	e
+317	tumoare/tumori	o'a	'o		m	u		r	e		m	u		r	i
+318	moață/moațe	o'a	o'a		m	^		ț	ă		m	^		ț	e
+319	grandoare/grandori	o'a	'o		nd	a		r	e		nd	a		r	i
+320	închisoare/închisori	o'a	'o		s	i		r	e		s	i		r	i
+321	perioadă/perioade	o'a	o'a			i		d	ă			i		d	e
+322	descoasere/descoaseri	o'a	o'a		sc	e		s	e		sc	e		s	e
+323	coacăz/coacăzi	o'a	o'a		c	^		c	ă		c	^		c	ă
+324	oară/oare	o'a	o'a		^	^		r	ă		^	^		r	e
+325	oară/ori	o'a	'o		^	^		r	ă		^	^		r	i
+326	proastă/proaste	o'a	o'a		pr	^		st	ă		pr	^		st	e
+327	culoar/culoare	o'a	o'a		l	u		r	$		l	u		r	e
+328	sprijinitoare/sprijinitori	o'a	'o		t	i		r	e		t	i		r	i
+329	nepoată/nepoate	o'a	o'a		p	e		t	ă		p	e		t	e
+330	zdroabă/zdroabe	o'a	o'a		zdr	^		b	ă		zdr	^		b	e
+331	șvăboaică/șvăboaice	o'a	o'a		b	ă	i	c	ă		b	ă	i	c	e
+332	șvăboaică/șvăboaicele	o'a	o'a		b	ă	i	c	ă		b	ă	i	c	e
+333	pufoaică/pufoaice	o'a	o'a		f	u	i	c	ă		f	u	i	c	e
