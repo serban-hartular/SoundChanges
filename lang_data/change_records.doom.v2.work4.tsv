@@ -134,7 +134,7 @@
 132	132	132	nuc	n'uc		nuci	n'uci	i	202200	202210	^/^ n/n 'u/'u c/c $/$	True			'u/'u 	n 'u c	n 'u c ĭ	n/n 'u/'u c/c 0/ĭ
 133	133	133	iamb	i'amb		iambi	i'ambi	i	145063	145064	^/^ i/i 'a/'a m/m b/b $/$	True			'a/'a 	i̯ 'a m b	i̯ 'a m b ĭ	i̯/i̯ 'a/'a m/m b/b 0/ĭ
 134	134	134	orizontală	o.ri.zon.t'a.lă	ă	orizontale	o.ri.zon.t'a.le	e	208209	208194	^/^ o/o r/r i/i z/z o/o n/n t/t 'a/'a l/l $/$	True			'a/'a 	o . r i . z o n . t 'a . l ă	o . r i . z o n . t 'a . l e	o/o ./. r/r i/i ./. z/z o/o n/n ./. t/t 'a/'a ./. l/l ă/e
-135	135	135	gogoașă	go.go'a.șă	ă	gogoașe	go.g’o.și	I	137672	137667	^/^ g/g o/o g/g o'a/’o ș/ș $/$	True	OK1	gogoși	o'a/o'a 	g o . g o̯'a . ș ă	g o . g ’ o . ș i	g/g o/o ./. g/g 0/’ o̯'a/o ./. ș/ș ă/i
+135	135	135	gogoașă	go.go'a.șă	ă	gogoașe	go.g’o.și	I	137672	137667	^/^ g/g o/o g/g o'a/’o ș/ș $/$	True	error	gogoși	o'a/o'a 	g o . g o̯'a . ș ă	g o . g ’ o . ș i	g/g o/o ./. g/g 0/’ o̯'a/o ./. ș/ș ă/i
 136	136	136	gogoașă	go.go'a.șă	ă	gogoși	go.g'oși	i	137672	137686	^/^ g/g o/o g/g o'a/'o ș/ș $/$	True			o'a/'o chg	g o . g o̯'a . ș ă	g o . g 'o ș ĭ	g/g o/o ./. g/g o̯'a/'o ./0 ș/ș ă/ĭ
 137	137	137	cozonac	co.zo.n'ac		cozonaci	co.zo.n'aci	i	82370	82371	^/^ c/c o/o z/z o/o n/n 'a/'a c/c $/$	True			'a/'a 	c o . z o . n 'a c	c o . z o . n 'a c ĭ	c/c o/o ./. z/z o/o ./. n/n 'a/'a c/c 0/ĭ
 138	138	138	punctbal	p'unct.bal		punctbale	p'unct.ba.le	e	237665	237666	^/^ p/p 'u/'u n/n c/c t/t b/b a/a l/l $/$	True			'u/'u 	p 'u n c t . b a l	p 'u n c t . b a . l e	p/p 'u/'u n/n c/c t/t ./. b/b a/a 0/. l/l 0/e
@@ -161,7 +161,7 @@
 159	159	159	particulă	par.t'i.cu.lă	ă	particule	par.t'i.cu.le	e	213883	213877	^/^ p/p a/a r/r t/t 'i/'i c/c u/u l/l $/$	True			'i/'i 	p a r . t 'i . c u . l ă	p a r . t 'i . c u . l e	p/p a/a r/r ./. t/t 'i/'i ./. c/c u/u ./. l/l ă/e
 160	160	160	sambă	s'am.bă	ă	sambe	s'am.be	e	261373	261367	^/^ s/s 'a/'a m/m b/b $/$	True			'a/'a 	s 'a m . b ă	s 'a m . b e	s/s 'a/'a m/m ./. b/b ă/e
 161	161	161	tigroaică	ti.gro'ai.că	ă	tigroaice	ti.gro'ai.ce	e	291173	291166	^/^ t/t i/i g/g r/r o'a/o'a i/i c/c $/$	True			o'a/o'a 	t i . g r o̯'a i̯ . c ă	t i . g r o̯'a i̯ . c e	t/t i/i ./. g/g r/r o̯'a/o̯'a i̯/i̯ ./. c/c ă/e
-162	162	162	tigroaică	ti.gro'ai.că	ică	tigroaicele	ti.gro'ai.ce.le	e	291173	291169	^/^ t/t i/i g/g r/r o'a/o'a i/i c/c $/$	True	OK0	tigroaice	o'a/o'a 	t i . g r o̯'a i̯ . c ă	t i . g r o̯'a i̯ . c e . l e	t/t i/i ./. g/g r/r o̯'a/o̯'a i̯/i̯ ./. c/c ă/e 0/. 0/l 0/e
+162	162	162	tigroaică	ti.gro'ai.că	ică	tigroaicele	ti.gro'ai.ce.le	e	291173	291169	^/^ t/t i/i g/g r/r o'a/o'a i/i c/c $/$	True	error	tigroaice	o'a/o'a 	t i . g r o̯'a i̯ . c ă	t i . g r o̯'a i̯ . c e . l e	t/t i/i ./. g/g r/r o̯'a/o̯'a i̯/i̯ ./. c/c ă/e 0/. 0/l 0/e
 163	163	163	cvartet	cvar.t'et		cvartete	cvar.t'e.te	e	87820	87821	^/^ c/c v/v a/a r/r t/t 'e/'e t/t $/$	True			'e/'e 	c v a r . t 'e t	c v a r . t 'e . t e	c/c v/v a/a r/r ./. t/t 'e/'e 0/. t/t 0/e
 164	164	164	flașnetă	flaș.n'e.tă	ă	flașnete	flaș.n'e.te	e	128050	128045	^/^ f/f l/l a/a ș/ș n/n 'e/'e t/t $/$	True			'e/'e 	f l a ș . n 'e . t ă	f l a ș . n 'e . t e	f/f l/l a/a ș/ș ./. n/n 'e/'e ./. t/t ă/e
 165	165	165	ascensor	as.cen.s'or		ascensoare	as.cen.so'a.re	e	37361	37358	^/^ a/a s/s c/c e/e n/n s/s 'o/o'a r/r $/$	True			'o/o'a chg	a s . c e n . s 'o r	a s . c e n . s o̯'a . r e	a/a s/s ./. c/c e/e n/n ./. s/s 'o/o̯'a 0/. r/r 0/e
@@ -346,7 +346,7 @@
 344	344	344	slăbire	slă.b'i.re	e	slăbiri	slă.b'iri	i	271180	271182	^/^ s/s l/l ă/ă b/b 'i/'i r/r $/$	True			'i/'i 	s l ă . b 'i . r e	s l ă . b 'i r ĭ	s/s l/l ă/ă ./. b/b 'i/'i ./0 r/r e/ĭ
 345	345	345	copac	co.p'ac		copaci	co.p'aci	i	80117	80118	^/^ c/c o/o p/p 'a/'a c/c $/$	True			'a/'a 	c o . p 'a c	c o . p 'a c ĭ	c/c o/o ./. p/p 'a/'a c/c 0/ĭ
 346	346	346	novice	no.v'i.ce	e	novici	no.v'ici	i	202109	202116	^/^ n/n o/o v/v 'i/'i c/c $/$	True			'i/'i 	n o . v 'i . c e	n o . v 'i c ĭ	n/n o/o ./. v/v 'i/'i ./0 c/c e/ĭ
-347	347	347	novice	no.v'i.ce	e	novicii	no.v'i.cii	i	202109	202124	^/^ n/n o/o v/v 'i/'i c/c $/$	True	OK0	novici	'i/'i 	n o . v 'i . c e	n o . v 'i . c i i̯	n/n o/o ./. v/v 'i/'i ./. c/c e/i 0/i̯
+347	347	347	novice	no.v'i.ce	e	novicii	no.v'i.cii	i	202109	202124	^/^ n/n o/o v/v 'i/'i c/c $/$	True	error	novici	'i/'i 	n o . v 'i . c e	n o . v 'i . c i i̯	n/n o/o ./. v/v 'i/'i ./. c/c e/i 0/i̯
 348	348	348	vrâncean	vrân.ce'an		vrânceni	vrân.c'eni	i	309227	309245	^/^ v/v r/r â/â n/n c/c e'a/'e n/n $/$	True			e'a/'e chg	v r î n . ce̯ 'a n	v r î n . c 'e n ĭ	v/v r/r î/î n/n ./. ce̯/c 'a/'e n/n 0/ĭ
 349	349	349	spată	sp'a.tă	ă	spate	sp'a.te	e	274268	274253	^/^ s/s p/p 'a/'a t/t $/$	True			'a/'a 	s p 'a . t ă	s p 'a . t e	s/s p/p 'a/'a ./. t/t ă/e
 350	350	350	spată	sp'a.tă	ă	spete	sp'e.te	e	274268	274817	^/^ s/s p/p 'a/'e t/t $/$	True			'a/'e chg	s p 'a . t ă	s p 'e . t e	s/s p/p 'a/'e ./. t/t ă/e
@@ -11846,7 +11846,7 @@
 11844	11844	11845	mariaj	ma.ri.'aj		mariaje	ma.ri.'a.je	e	172619	172620	^/^ m/m a/a r/r i/i 'a/'a j/j $/$	True			'a/'a 	m a . r i . 'a j	m a . r i . 'a . j e	m/m a/a ./. r/r i/i ./. 'a/'a 0/. j/j 0/e
 11845	11845	11846	rabatare	ra.ba.t'a.re	e	rabatări	ra.ba.t'ări	i	241448	241455	^/^ r/r a/a b/b a/a t/t 'a/'ă r/r $/$	True			'a/'ă chg	r a . b a . t 'a . r e	r a . b a . t 'ă r ĭ	r/r a/a ./. b/b a/a ./. t/t 'a/'ă ./0 r/r e/ĭ
 11846	11846	11847	abonament	a.bo.na.m'ent		abonamente	a.bo.na.m'en.te	e	18215	18216	^/^ a/a b/b o/o n/n a/a m/m 'e/'e n/n t/t $/$	True			'e/'e 	a . b o . n a . m 'e n t	a . b o . n a . m 'e n . t e	a/a ./. b/b o/o ./. n/n a/a ./. m/m 'e/'e n/n 0/. t/t 0/e
-11847	11847	11848	făclie	fă.cl'i.e	e	făclii	fă.cl'i.i	i	123029	123031	^/^ f/f ă/ă c/c l/l 'i/'i $/$	True			'i/'i 	f ă . c l 'i . e	f ă . c l 'i . i	f/f ă/ă ./. c/c l/l 'i/'i ./. e/i
+11847	11847	11848	făclie	fă.cl'i.e	e	făclii	fă.cl'ii	i	123029	123031	^/^ f/f ă/ă c/c l/l 'i/'i $/$	True			'i/'i 	f ă . c l 'i . e	f ă . c l 'i . i	f/f ă/ă ./. c/c l/l 'i/'i ./. e/i
 11848	11848	11849	maică	m'ai.că	ă	maice	m'ai.ce	e	170925	170913	^/^ m/m 'a/'a i/i c/c $/$	True	plur_form_match	maici	'a/'a 			
 11849	11849	11850	maică	m'ai.că	ă	maici	m'aici	i	170925	170919	^/^ m/m 'a/'a i/i c/c $/$	True			'a/'a 	m 'a i̯ . c ă	m 'a i̯ c ĭ	m/m 'a/'a i̯/i̯ ./0 c/c ă/ĭ
 11850	11850	11851	preocupare	pre.o.cu.p'a.re	e	preocupări	pre.o.cu.p'ări	i	229492	229532	^/^ p/p r/r e/e o/o c/c u/u p/p 'a/'ă r/r $/$	True			'a/'ă chg	p r e . o . c u . p 'a . r e	p r e . o . c u . p 'ă r ĭ	p/p r/r e/e ./. o/o ./. c/c u/u ./. p/p 'a/'ă ./0 r/r e/ĭ

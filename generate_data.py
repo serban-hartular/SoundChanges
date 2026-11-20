@@ -7,14 +7,21 @@ class Change:
     i: str
     o: str
     def __str__(self) -> str:
-        return f'{self.i}/{self.o}'
+        return f'{self.i if self.i else "0"}/{self.o if self.o else "0"}'
     def __repr__(self) -> str:
         return str(self)
+    def set(self) -> set:
+        return {self.i, self.o}
+    def tuple(self) -> tuple:
+        return self.i, self.o
 
 ChangeSequence = list[Change]
 
 def ChangeSequenceFromString(seq_str: str) -> ChangeSequence:
     return [Change(*chg.split('/')) for chg in seq_str.split(' ')]
+
+def ChangeSequenceToString(chg_seq: ChangeSequence) -> str:
+    return ' '.join([str(chg) for chg in chg_seq])
 
 def change_seq_to_words(chg_seq: ChangeSequence) -> tuple[str, str]:
     w1 = [chg.i for chg in chg_seq if chg.i != '0']

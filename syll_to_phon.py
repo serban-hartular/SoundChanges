@@ -139,7 +139,8 @@ def syllable_stress_form_to_phon(s : str) -> str:
 
 def group_phon_sounds(s : str) -> str:
     # first group c(h?)[i̯e̯]
-    groups = ['c e̯', 'g e̯', 'c h e̯', 'g h e̯', 'c i̯', 'g i̯', 'c h i̯', 'g h i̯']
+    groups = ['c e̯', 'g e̯', 'c h e̯', 'g h e̯', 'c i̯', 'g i̯', 'c h i̯', 'g h i̯',] +\
+                [f'c {FINAL_I}', f'g {FINAL_I}', f'c h {FINAL_I}', f'g h {FINAL_I}']
     replacements = [g.replace(' ', '') for g in groups]
     for g,r in zip(groups, replacements):
         s = s.replace(g, r)
@@ -157,7 +158,7 @@ if __name__ == "__main__":
     import pandas as pd
     from edit_distance import get_edits
 
-    df = pd.read_csv('./lang_data/change_records.doom.v2.work3.tsv', sep='\t').fillna('')
+    df = pd.read_csv('./lang_data/change_records.doom.v2.work5.tsv', sep='\t').fillna('')
 
     IS_OK = ['', 'OK', 'OK1', 'OK0']
     def get_phon_form(s) -> str:

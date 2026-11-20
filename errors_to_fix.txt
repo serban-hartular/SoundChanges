@@ -1,0 +1,31 @@
+1. X fix dim_plur everywhere
+2. X fix "ar.mis.t'i.ți.i" and others with ending ['i̯ u']
+3. "'ă u̯" - desinence is u̯
+4. "e̯'a" - desinence is 0
+5. 'l' - desinence is 0
+6. "'a l e" - desinence is e
+7. X fix "cas.ca.do.r'i.e", "ca.sa.d'o.rii̯"
+8. "ghe̯ 'a" - desinence is 0 (tejghea)
+9. "e̯'a u̯" - desinence is u̯ (sleau)
+10. "ce̯ 'a" - desinence is 0 (parcea)
+11. X Fix ("fran.ci.z'ă", "fran.c'i.ze"), ("clo.n'ă", "cl'o.ne"), ("car.t'ă", "c'ar.te"), ("li.de.r'ă", "l'i.de.re")
+12. "che̯ 'a" - desinence is 0 (lichea)
+13. 'l e' - desinence is e (piele)
+14. "'a" - desinence is 0
+15. "ge̯ 'a" - desinence is 0
+16. "'î u̯" - desinence is u̯ (piriu/piraie)
+17. X "mîn.că.r'i.că", "mîn.că.r'e.le" - dim_plur
+
+1.  fix novice
+2.  fix ("go.go̯'a.ș", 'go.g’o.ș')
+ti.gro̯'ai̯.c
+i.i "tă.bl'i", "tă.bl'i"), ("ga.le.r'i", "ga.le.r'i"), ("trans.f'u.zi", "trans.f'u.zi"), ("a.bre.vi.'a.ți", "a.bre.vi.'a.ți"), ("es.te.zi.o.me.tr'i", "es.te.zi.o.me.tr'i"), ("dis.tro.f'i", "dis.tro.f'i"), ("pa.no.pl'i", "pa.no.pl'i"), ("si.me.tr'i", "si.me.tr'i"), ("fă.cl'i", "fă.cl'i")
+('', '')
+
+Fix "fran.ci.z'ă", "fran.c'i.ze", "clo.n'ă", "cl'o.ne"), ("car.t'ă", "c'ar.te"), ("li.de.r'ă", "l'i.de.re")
+Exceptions to current algo:
+("b'icĭ", "b'i.ce")  ĭ/e
+ĭ/urĭ !!!!
+
+Note exception: "fla.m'in.go", "fla.m'ingĭ"
+
