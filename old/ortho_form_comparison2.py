@@ -1,6 +1,6 @@
 import dataclasses
 
-import lemmatize
+import old.lemmatize as lemmatize
 import lexicon_utils as lu
 import pandas as pd
 import re

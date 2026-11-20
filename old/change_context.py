@@ -1,6 +1,6 @@
 import itertools
 
-from ortho_form_comparison2 import FormChangeRecord
+from old.ortho_form_comparison2 import FormChangeRecord
 from lexicon_utils import ORTHO_VOWELS
 
 import pandas as pd

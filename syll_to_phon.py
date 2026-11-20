@@ -100,7 +100,7 @@ def _extend_clusters_stress() -> dict[str, str]:
 VOWEL_CLUSTERS |= _extend_clusters_stress()
 
 def preliminary_changes(s: str) -> str:
-    return s.replace("â", "î")
+    return s.replace("â", "î").replace('x', 'cs')
 
 def syllable_stress_form_to_phon(s : str) -> str:
     orig_s = s
@@ -157,7 +157,7 @@ if __name__ == "__main__":
     import pandas as pd
     from edit_distance import get_edits
 
-    df = pd.read_csv('./lang_data/change_records.doom.v2.work2.csv', sep='\t').fillna('')
+    df = pd.read_csv('./lang_data/change_records.doom.v2.work3.tsv', sep='\t').fillna('')
 
     IS_OK = ['', 'OK', 'OK1', 'OK0']
     def get_phon_form(s) -> str:

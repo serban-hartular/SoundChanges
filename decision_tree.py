@@ -287,56 +287,37 @@ class CategoricalDecisionTreeClassifier:
 
 
 if __name__ == '__main__':
-    orig_df = pd.read_csv('./lang_data/change_records.doom.v2.work2.csv', sep='\t').fillna('')
-    df = pd.read_csv('./train_data/yback_chg.tsv', sep='\t', encoding='utf-8').fillna('')
+    TARGET = "'a"
+    
+    df = pd.read_csv('./train_data/chg.doom2.work3.tsv', sep='\t', encoding='utf-8').fillna('')
+    X_cols = ['vw_chg_next','sound_in_after', 'sound_in_before', 'sound_out_after']
+    y_col = 'vw_out'
+    ID_col = 'ID'
 
-    def display_wordpairs(id_list: list[int], limit=3):
-        print(orig_df[orig_df['ID'].isin(id_list)][['ID', 'input_form', 'output_form']][:limit].to_string(index=False, header=False))
-
-    tree_dict = {}
-
-    # get desinence pairs
-    desinence_cols = ['desinence_in', 'desinence_out']
-    desinence_pairs = set(df[desinence_cols].itertuples(index=False, name=None))
-    NO_CHG = "'â"
-    for des_pair in desinence_pairs:
-        df_des = df[(df['desinence_in']==des_pair[0]) & (df['desinence_out']==des_pair[1])]
-        
-        result_set = set(df_des['result'])
-        if len(result_set) == 1:
-            result = result_set.pop()
-            if result != NO_CHG:
-                print(des_pair, result)
-                display_wordpairs(list(df_des['ID']))
-                print()
-        else:
-            # ID	desinence_in	desinence_out	before	after	is_last_syll	result
-            X_cols = ['is_last_syll','before', 'after',]
-            y_col = 'result'
-            ID_col = 'ID'
-            classifier = CategoricalDecisionTreeClassifier().fit(
-                df_des[X_cols], df_des[y_col], sample_keys=df_des[ID_col],
-            )
-            tree = classifier.tree_
-            for node in iter_tree(tree):
-                merge_same_children(node)
-            leaves = [node for node in iter_tree(tree) if not node.fname and node.outcome != 'a']
-            leaves.sort(key=lambda leaf: -len(leaf.keys))
-            if len(leaves) == 1: # just one:
-                print(des_pair, '->', leaves[0].outcome, 'with exceptions')
-                display_wordpairs(leaves[0].keys_good)
+    df_target = df[df['vw_in']==TARGET]
+    classifier = CategoricalDecisionTreeClassifier().fit(
+        df_target[X_cols], df_target[y_col], sample_keys=df_target[ID_col],
+    )
+    tree = classifier.tree_
+    for node in iter_tree(tree):
+        merge_same_children(node)
+    leaves = [node for node in iter_tree(tree) if not node.fname and node.outcome != 'a']
+    leaves.sort(key=lambda leaf: -len(leaf.keys))
+    if len(leaves) == 1: # just one:
+        print(TARGET, '->', leaves[0].outcome, 'with exceptions')
+        print(leaves[0].keys_good)
+        print('\tException(s):')
+        print(leaves[0].keys_bad)
+    else:
+        print(TARGET)
+        for leaf in leaves:
+            print(get_parent_decisions(leaf), '->', leaf.outcome)
+            print(leaf.keys_good)
+            if leaf.keys_bad:
                 print('\tException(s):')
-                display_wordpairs(leaves[0].keys_bad)
-                continue
-            print(des_pair)
-            for leaf in leaves:
-                print(get_parent_decisions(leaf), '->', leaf.outcome)
-                display_wordpairs(leaf.keys_good)
-                if leaf.keys_bad:
-                    print('\tException(s):')
-                    display_wordpairs(leaf.keys_bad)
-            print()
-            
+                print(leaf.keys_bad)
+    print()
+    
 
     # rules = [
     #     {'conditions': get_parent_decisions(leaf), 'prediction': leaf.outcome,
