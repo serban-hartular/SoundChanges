@@ -3514,7 +3514,7 @@
 3512	3512	3512	3512	3513	japșă	j'ap.șă	ă	jăpși	j'ăpși	i	160429	160246	^/^ j/j 'a/'ă p/p ș/ș $/$	True	plur_form_match	japșe	'a/'ă chg						
 3513	3513	3513	3513	3514	japșă	j'ap.șă	ă	japșe	j'ap.șe	e	160429	160424	^/^ j/j 'a/'a p/p ș/ș $/$	True			'a/'a 	j 'a p . ș ă	j 'a p . ș e	j/j 'a/'a p/p ./. ș/ș ă/e	j/j 'a/'a p/p ./. ș/ș	ă/e	ă/e
 3514	3514	3514	3514	3515	manta	man.t'a		mantale	man.t'a.le	le	172031	172033	^/^ m/m a/a n/n t/t 'a/'a $/$	True			'a/'a 	m a n . t 'a	m a n . t 'a . l e	m/m a/a n/n ./. t/t 'a/'a 0/. 0/l 0/e	m/m a/a n/n ./. t/t 'a/'a	0/. 0/l 0/e	/.le
-3515	3515	3515	3515	3516	manta	man.t'a	a	mantăi	man.t'ăi	ale	172031	172067	^/^ m/m a/a n/n t/t ‘a/’a $/$	True	OK0	mantale	OK	m a n . t 'a	m a n . t 'ă i̯	m/m a/a n/n ./. t/t 'a/'ă 0/i̯	m/m a/a n/n ./. t/t 'a/'ă	0/i̯	/i̯
+3515	3515	3515	3515	3516	manta	man.t'a	a	mantăi	man.t'ăi	ale	172031	172067	^/^ m/m a/a n/n t/t ‘a/’a $/$	True	error	mantale	OK	m a n . t 'a	m a n . t 'ă i̯	m/m a/a n/n ./. t/t 'a/'ă 0/i̯	m/m a/a n/n ./. t/t 'a/'ă	0/i̯	/i̯
 3516	3516	3516	3516	3517	pagubă	p'a.gu.bă	ă	pagube	p'a.gu.be	e	211252	211246	^/^ p/p 'a/'a g/g u/u b/b $/$	True			'a/'a 	p 'a . g u . b ă	p 'a . g u . b e	p/p 'a/'a ./. g/g u/u ./. b/b ă/e	p/p 'a/'a ./. g/g u/u ./. b/b	ă/e	ă/e
 3517	3517	3517	3517	3518	sită	s'i.tă	ă	site	s'i.te	e	270987	270997	^/^ s/s 'i/'i t/t $/$	True			'i/'i 	s 'i . t ă	s 'i . t e	s/s 'i/'i ./. t/t ă/e	s/s 'i/'i ./. t/t	ă/e	ă/e
 3518	3518	3518	3518	3519	țep	ț'ep		țepi	ț'epi	i	3612	3632	^/^ ț/ț 'e/'e p/p $/$	True			'e/'e 	ț 'e p	ț 'e p ĭ	ț/ț 'e/'e p/p 0/ĭ	ț/ț 'e/'e p/p	0/ĭ	/ĭ

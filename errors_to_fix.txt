@@ -29,3 +29,5 @@ Exceptions to current algo:
 
 Note exception: "fla.m'in.go", "fla.m'ingĭ"
 
+X manta - mantai!!
+

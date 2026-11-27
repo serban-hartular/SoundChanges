@@ -74,7 +74,7 @@ def _normalize_features(df):
 def generate_split(
     df: pd.DataFrame, feature_names: list[str], outcome_name: str, key_col: str = '',
     *, max_depth: int | None = None, min_samples_leaf: int = 1,
-    min_impurity_decrease: float = 0.0,
+    min_impurity_decrease: float = 0.0, force_feature_order: bool = False,
 ) -> DecisionTree:
     """Build a categorical tree using weighted Gini impurity.
 
@@ -82,6 +82,10 @@ def generate_split(
     once per path. Ties favor feature order, then first-observed class order
     within a node. Zero-gain splits are allowed by default, so interactions
     such as XOR can be learned. Missing feature values become ''.
+
+    With force_feature_order=True, use the first remaining nonconstant
+    feature instead of comparing scores. Pure nodes still stop. If the
+    selected feature violates a stopping limit, leave the node unsplit.
     """
     _validate_options(max_depth, min_samples_leaf, min_impurity_decrease)
     feature_names = list(feature_names)
@@ -113,12 +117,18 @@ def generate_split(
         best_feature, best_groups, best_score = None, None, math.inf
         for feature in features:
             groups = list(rows.groupby(feature, sort=False, observed=True, dropna=False))
-            if len(groups) < 2 or any(len(group) < min_samples_leaf for _, group in groups):
+            if len(groups) < 2:
+                continue
+            if any(len(group) < min_samples_leaf for _, group in groups):
+                if force_feature_order:
+                    break
                 continue
             score = sum(len(group) * Gini_impurity(group, outcome_name)
                         for _, group in groups) / len(rows)
             if score < best_score - 1e-12:
                 best_feature, best_groups, best_score = feature, groups, score
+            if force_feature_order:
+                break
 
         # The threshold applies to the local reduction in Gini impurity.
         if best_feature is None or node.score - best_score + 1e-12 < min_impurity_decrease:
@@ -181,13 +191,17 @@ class CategoricalDecisionTreeClassifier:
     current node, whose majority class and distribution are returned. Missing
     values are treated as ''. Conflicting rows retain their class distribution.
     Input values and labels must be hashable scalars, such as strings or ints.
+    Set force_feature_order=True to follow X's column order, skipping features
+    that are constant within a node. Stopping limits still apply.
     """
 
-    def __init__(self, *, max_depth=None, min_samples_leaf=1, min_impurity_decrease=0.0):
+    def __init__(self, *, max_depth=None, min_samples_leaf=1, min_impurity_decrease=0.0,
+                 force_feature_order=False):
         _validate_options(max_depth, min_samples_leaf, min_impurity_decrease)
         self.max_depth = max_depth
         self.min_samples_leaf = min_samples_leaf
         self.min_impurity_decrease = min_impurity_decrease
+        self.force_feature_order = force_feature_order
 
     def fit(self, X: pd.DataFrame, y, *, sample_keys=None):
         """Fit X to y in row order; pandas indices are ignored.
@@ -218,6 +232,7 @@ class CategoricalDecisionTreeClassifier:
             data, list(X.columns), target, key_col, max_depth=self.max_depth,
             min_samples_leaf=self.min_samples_leaf,
             min_impurity_decrease=self.min_impurity_decrease,
+            force_feature_order=self.force_feature_order,
         )
         self.tree_ = tree
         self.feature_names_in_ = list(X.columns)
@@ -289,13 +304,15 @@ class CategoricalDecisionTreeClassifier:
 if __name__ == '__main__':
     TARGET = "'a"
     
-    df = pd.read_csv('./train_data/chg.doom2.work3.tsv', sep='\t', encoding='utf-8').fillna('')
-    X_cols = ['vw_chg_next','sound_in_after', 'sound_in_before', 'sound_out_after']
-    y_col = 'vw_out'
-    ID_col = 'ID'
+    df = pd.read_csv('./train_data/chg.doom2.work5.tsv', sep='\t', encoding='utf-8').fillna('')
+    df = df[(df['vw0_in']==TARGET)]
 
-    df_target = df[df['vw_in']==TARGET]
-    classifier = CategoricalDecisionTreeClassifier().fit(
+    X_cols = ['des_change', 'sound_before_des',]#'vw_before_in', 'vw_before_out', ]
+    y_col = 'vw0_out'
+    ID_col = 'word'
+
+    df_target = df
+    classifier = CategoricalDecisionTreeClassifier(force_feature_order=True).fit(
         df_target[X_cols], df_target[y_col], sample_keys=df_target[ID_col],
     )
     tree = classifier.tree_
@@ -305,18 +322,18 @@ if __name__ == '__main__':
     leaves.sort(key=lambda leaf: -len(leaf.keys))
     if len(leaves) == 1: # just one:
         print(TARGET, '->', leaves[0].outcome, 'with exceptions')
-        print(leaves[0].keys_good)
+        print(leaves[0].keys_good[:5])
         print('\tException(s):')
-        print(leaves[0].keys_bad)
+        print(leaves[0].keys_bad[:5])
     else:
         print(TARGET)
         for leaf in leaves:
             print(get_parent_decisions(leaf), '->', leaf.outcome)
-            print(leaf.keys_good)
+            print(leaf.keys_good[:5])
             if leaf.keys_bad:
-                print('\tException(s):')
-                print(leaf.keys_bad)
-    print()
+                print(f'\tException(s): {len(leaf.keys_bad)/len(leaf.keys) :.2f}')
+                print(leaf.keys_bad[:5])
+        print()
     
 
     # rules = [
